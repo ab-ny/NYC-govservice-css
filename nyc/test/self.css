@@ -3,5 +3,10 @@
     display: none;
 }
 #loginLink {
-	display: none;
+    display: none;
+}
+
+.achieveforms-container .sectionsHead {
+    display: none;
+    visibility: hidden;
 }
