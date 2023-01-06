@@ -1,0 +1,119 @@
+/*Seperated Datefield Resize fix*/
+    .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[data-type=date-subfield]
+    {
+    border: 2px solid #0b0c0c;
+    border-radius: 0;
+    font-size: 19px;
+    height: 40px;
+    
+}
+    .download-pdf{
+       visibility: hidden;
+    }
+/*Static text bottom margin*/
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.content {
+    padding: 0;
+    margin-bottom: 4px !important;
+}
+
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.content p-bottom-margin {
+    padding: 0;
+    margin-bottom: 2px !important;
+}
+
+/*END Static text bottom margin*/
+
+
+
+/*GDS Styles start*/
+
+/*in text*/
+.panel-gds {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    clear: both;
+    border-left-style: solid;
+    border-color: #bfc1c3;
+    padding: 0.78947em;
+    margin-bottom: 0.78947em;
+}
+
+.panel-border-wide {
+    border-left-width: 10px;
+}
+
+/*Warning Text*/
+
+.notice {
+    position: relative;
+}
+
+.notice .icon {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -17px;
+}
+.icon-important {
+    width: 35px;
+    height: 35px;
+    background-image: url(/public/images/icon-important.png);
+}
+.icon {
+    display: inline-block;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.visually-hidden, .visuallyhidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+.bold-small {
+    font-family: "nta", Arial, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+
+/*Links*/
+
+a:visited {
+    color: #4c2c92;
+}
+a:link {
+    color: #005ea5;
+}
+
+.font-xsmall {
+    font-family: "nta", Arial, sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 14px;
+    line-height: 1.14286;
+}
+
+/*Hint text*/
+
+details summary {
+    display: inline-block;
+    color: #005ea5;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 0.26316em;
+}
+details .summary {
+    text-decoration: underline;
+}
+
+/*GDS Styles end*/

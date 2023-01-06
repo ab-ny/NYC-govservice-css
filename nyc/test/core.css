@@ -1,0 +1,1952 @@
+/*
+@font-face {
+  font-family:"GDS Transport";src:url("font/light-94a07e06a1-v2.woff2") format("woff2"),url("font/light-f591b13f7d-v2.woff") format("woff");font-weight:normal;font-style:normal;font-display:fallback;
+}
+
+@font-face {
+  font-family:"GDS Transport";src:url("font/bold-b542beb274-v2.woff2") format("woff2"),url("font/bold-affa96571d-v2.woff") format("woff");font-weight:bold;font-style:normal;font-display:fallback;
+}
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 19px;
+}
+
+.navbar-inverse {
+	background-color: #01427a;
+    border-color: #013059;
+}
+div.header {margin:0px;}
+#header .container .header .container {padding:0px;width:auto;}
+.navbar .container {
+    max-width: 930px;
+    padding: 0;
+}
+.page-legacyform #footer, .page-legacyform #SelfFooter {background-color:#dee0e2}
+/*.page-legacyform #SelfToolbar .navbar {font-family:"nta",Arial,sans-serif}*/
+.referencepagetable {padding-bottom:10px} /* improve spacing on 'the form has been saved...' page */
+.achieveforms-form-qxvrr4gQioH p.continue-anonymously {display:none;} /* needs removing when the anon behaviour is fixed */
+
+#task_list_container .pagination li {float:inherit} /* fix alignment problem on My Requests pagination controls */
+#task_list_container .btn {display:inline} /* fix alignment problem on buttons on My Requests page */
+#task_list_container .btn-group>.btn {float:none} /* fix alignment problem on buttons on My Requests page */
+#task_list_container .btn-group a:visited{color:#fff}
+
+/* academy application attainment form code to hide rows 2,3,etc */
+.attainment table > tbody > tr:nth-child(3),
+.attainment table > tbody > tr:nth-child(4),
+.attainment table > tbody > tr:nth-child(6),
+.attainment table > tbody > tr:nth-child(7),
+.attainment table > tbody > tr:nth-child(9),
+.attainment table > tbody > tr:nth-child(10),
+.attainment table > tbody > tr:nth-child(12),
+.attainment table > tbody > tr:nth-child(13)
+{font-size:0; padding:0;margin:0;border:0}
+
+/* footer border */
+#footer {border-top: 10px solid #57da95;width:100%;}
+
+/* My Reviews button override (Black) */
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary, .open .dropdown-toggle.btn-primary {
+	background-color: #000000;
+	border-color: #000000;
+}
+
+/* Button Carat (Black) */
+
+.btn.active .caret {
+	color: #000000;
+	border-top-color: #000000;
+	border-bottom-color: #000000;
+}
+
+.previousbutton:focus{
+background-color: #fd0 !important;
+ color: #0b0c0c !important;
+}
+
+.remove-upload:focus{
+  outline: 3px solid transparent;
+  color: #0b0c0c !important;
+  background-color: #fd0 !important;
+  -webkit-box-shadow: 0 -2px #fd0,0 4px #0b0c0c;
+  box-shadow: 0 -2px #fd0,0 4px #0b0c0c !important;
+  text-decoration: none;
+}
+
+#betawarning {
+    display: none;
+    clear: both;
+    padding: 0.5em 0;
+    border-bottom: 1px solid #dee0e2;
+}
+#betawarning strong {
+    display: inline-block;
+    background-color: #005ea5;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 5px 2px 7px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    margin-right: 0.25em;
+}
+#betawarning a {
+	color: #1d70b8;
+	text-decoration: underline;
+}
+
+#betawarning  a:link,. #betawarning a:visited, #betawarning a:hover, #betawarning a:active {
+  color: #0b0c0c !important;
+}
+
+#betawarning a:focus {
+  outline: 3px solid transparent;
+  color: #0b0c0c;
+  background-color: #fd0;
+  -webkit-box-shadow: 0 -2px #fd0,0 4px #0b0c0c;
+  box-shadow: 0 -2px #fd0,0 4px #0b0c0c;
+  text-decoration: none;
+}
+
+a:link,html._AF a {
+    color: #005ea5;
+	text-decoration: underline;
+}
+a:hover,html._AF a:hover {
+    color: #2b8cc4 !important;
+}
+
+a:focus {
+  outline: 3px solid transparent;
+  color: #0b0c0c;
+  background-color: #fd0;
+  -webkit-box-shadow: 0 -2px #fd0,0 4px #0b0c0c;
+  box-shadow: 0 -2px #fd0,0 4px #0b0c0c;
+  text-decoration: none;
+}
+
+/* form-link-color My services */
+.form-name {
+	color: #1d70b8;
+	text-decoration: underline;
+}
+
+.form-name:link,. .form-name:visited,.form-name:hover, .form-name:active {
+  color: #0b0c0c !important;
+}
+
+.form-name:focus {
+  outline: 3px solid transparent;
+  color: #0b0c0c;
+  background-color: #fd0;
+  -webkit-box-shadow: 0 -2px #fd0,0 4px #0b0c0c;
+  box-shadow: 0 -2px #fd0,0 4px #0b0c0c;
+  text-decoration: none;
+}
+
+
+/* panel-group used for helptext*/
+.panel-group  a:link,. .panel-group a:visited, .panel-group a:hover, .panel-group a:active {
+  color: #0b0c0c !important;
+}
+
+.panel-group .help-content:focus {
+  outline: 3px solid transparent;
+  color: #0b0c0c;
+  background-color: #fd0;
+  -webkit-box-shadow: 0 -2px #fd0,0 4px #0b0c0c;
+  box-shadow: 0 -2px #fd0,0 4px #0b0c0c;
+  text-decoration: none;
+}
+
+/* live service indicator */
+#header {
+border-top: 10px solid #00652e;
+clear: both;
+width: 100%;
+max-width: 960px;
+margin: 0 auto;
+}
+
+/* dim the page when waiting for ajax */
+.ajaxbusy {
+    opacity:0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -khtml-opacity: 0.50;
+    -moz-opacity: 0.50;
+	background-image:url('ajax-loader.gif');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center; }
+	
+}
+
+/* stop ordered lists from using disc style */
+div ol {list-style-type:decimal}
+
+/* stop autocomplete results from being transparent */
+.ac_results ul {
+list-style-position: outside;
+list-style: none;
+background-color:#DDD;
+margin:0px;
+padding:0px;
+}
+.ac_results li {
+margin: 0px;
+padding: 2px 5px;
+cursor: pointer;
+display: block;
+width: 100%;
+font-size: 16px;
+overflow: hidden;
+}
+.ac_over {
+background-color: Highlight;
+color: HighlightText;
+}
+
+/* improve radio appearance */
+.page-legacyform .content.container #body input.radio {
+    margin-top: 3px; 
+    vertical-align: top;
+    /* margin-bottom: 8px; */
+}
+/* label.radio{
+padding-left:2px; padding-right:20px;
+}
+*/
+
+/* gov.uk heading style */
+
+/* form title font-size: 48px;font-weight: 600;*/ 
+/* remove excess space from subform headings */
+.subform legend.bws, .subformel legend{
+	margin-bottom:0px; 
+	padding-top: 0.5em;
+	font-size:19px;
+}
+
+.page-legacyform #toolbar .navbar {
+    border: 0;
+    background-color: #0B0C0C;
+    font-family: nta, Arial, sans-serif;
+}
+
+/* improve calendar appearance */
+table.cal {border:5px solid #006435;  border-radius:4px; width:0%;}
+table.cal td {padding:0.4em !important; background-color:#F8F8F8;}
+table.cal td.caledge {width:auto;}
+table.cal a, table.cal a:visited{color: #3578ea;}
+ 
+ .modal-footer {margin-top:35px} /* adjust position of the grey bar on the login overlay */
+ .modal-body  input[type="text"] {margin:0px} /*solve discrepancy in alignment between email and password fields */
+
+/* improve wrapping behaviour for select many fields */
+.page-legacyform  #body .af-form-selectmany {width:auto;}
+.page-legacyform  #body .af-form-selectmany  div.colspan {width:100%;}
+.page-legacyform  #body .af-form-selectmany  fieldset.horiz div.colspan {width:auto;}
+
+/* hide the login link, but leave the profile editor visible if logged in already */
+/* #loginLink {display:none} */
+
+.standardtable table,
+.academy_table table {
+	margin-top: 1em;
+}
+.standardtable td,
+.standardtable th,
+.forecast_table td,
+.forecast_table th,
+.balance_table td,
+.balance_table th,
+.asset_table td,
+.asset_table th,
+.academy_table td,
+.academy_table th {
+	font-size: 16px;
+	border-bottom: 1px solid #bfc1c3;
+	padding: 0.75em 1.25em 0.5em 0 !important;
+	width: auto !important;
+}
+.standardtable th,
+.forecast_table th,
+.balance_table th,
+.asset_table th,
+.academy_table th {
+	vertical-align: bottom;
+}
+.standardtable td,
+.forecast_table td,
+.balance_table td,
+.asset_table td,
+.academy_table td {
+	vertical-align: top;
+}
+.standardtable .title,
+.forecast_table .title,
+.balance_table .title,
+.asset_table .title,
+.academy_table .title {
+	margin-top: 0 !important;
+	width: 88%;
+	float: left;
+}
+.forecast_table legend,
+.balance_table legend,
+.asset_table legend,
+.academy_table legend {
+ 	font-size: 27px !important;
+	font-weight: bold;
+	color: #0b0c0c;
+ }
+.standardtableheader, .headerlabels {
+	font-weight:bold;
+	text-align:left !important;
+}
+.slotdivision2 {text-align:left !important;}
+
+/* fix date, time and compound field widths */
+.page-legacyform .content.container #body .af-form-datetime div.date ,
+.page-legacyform .content.container #body .af-form-datetime div.time
+{display:inline;}
+.page-legacyform .content.container #body .compound select, 
+.page-legacyform .content.container #body .af-form-time select,  
+.page-legacyform .content.container #body .af-form-datetime select,  
+.page-legacyform .content.container #body .af-form-date select { 
+    width: auto;
+    display:inline-block; 
+}
+.page-legacyform .content.container #body .compound  input[type="text"],
+.page-legacyform .content.container #body .af-form-datetime  input[type="text"].dateyeartextbox,
+.page-legacyform .content.container #body .af-form-date  input[type="text"].dateyeartextbox {
+    display:inline-block;
+}
+
+/* fix MoneySurplus compounds */
+.page-legacyform .content.container #body .compound select.MoneySurplus 
+{width:180px;}
+.page-legacyform .content.container #body .compound input.MoneySurplus 
+{width:180px; margin-left:10px}
+.compound {font-size:19px;}
+
+/* validation error classes */
+.mandatory{color:#fff;} .warningcontainer, .bws.warning {
+    /* border-left: 4px solid #df3034; 
+    padding: 10px 0 10px 14px !important; 
+    margin-top: 0.5em; */
+    color: #b10e1e !important;
+    /* text-align: left !important;
+    font-weight: bold;
+    font-size: 19px !important; */
+}
+.warningcontainer {
+    margin-top: 0;
+}
+.warningcontainer p {
+    margin: 0 !important;
+}
+.warningcontainer .warning {
+    margin: 0 !important;
+    text-align: left;
+    color: inherit;
+}
+
+.btn  {font-family: "nta",Arial,sans-serif;};
+
+/* make RHS of buttons line up with fields*/
+.afnavbuttons {width:99%;}
+/* hide hiddenlabels */
+.page-legacyform .content.container .renderdisplaytable .hiddenlabel label 
+{display:none;}
+
+/* classes used for some specific AF fields */
+textarea.widthThreeQuarters, select.widthThreeQuarters, input.widthThreeQuarters {max-width:696px}
+textarea.widthHalf, select.widthHalf, input.widthHalf {max-width:464px}
+/*textarea.widthQuarter, select.widthQuarter , input.widthQuarter {max-width:232px}*/
+
+/* fix an issue where captions that should be hidden were not */
+.labelnone {display:none !important;}
+
+/*
+.navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+max-width:960px;
+width: 960px;
+background-color:#0b0c0c;
+}
+*/
+
+/* not sure why this was here - caused issues with heading positioning in forms */
+/* .nondatael h2 {
+    margin: 30px 0 0 10px;
+
+} */
+
+/* removed as certain to do nothing */
+/*
+#FBxJZhuxuT5 h2 {
+    border: none;
+    margin: 0 !important;
+}
+*/
+
+/* fix padding issue with DFE logo */
+#header .brand-image {
+margin-top:0px;
+}
+/* removed .clear from this selector to stop firefox from hiding all fields */
+/* removed #navigation as we want to see the navbar */
+.content.container {margin-top:0px;}
+
+/*
+#toolbar .navbar:after, #SelfToolbar .navbar:after {
+clear: both;
+width: 100%;
+display: table;
+font-size: 1.2em;
+background: #f47738;
+ border-bottom: 3px solid #103e66; 
+padding: 5px 0 0 20px;
+color: #FFF;
+content: "This is our beta website";
+font-family: "nta",Arial,sans-serif;
+}
+*/
+
+#SelfHeader, h1.col-md-4, .eformstext, .navbartitle, .sectionnamerender .eformstext, .page-legacyform .content.container body label img, .page-legacyform .content.container #body .helptext{
+    display: none;
+}
+/*
+a, a:active, a:hover, a:focus, input[type="submit"]:focus, label a:focus {
+    border: 0 none;
+    outline: 0 none;
+}
+*/
+
+.form-wrapper form#loginForm  label{margin:0;} /*improve label positions on login form */
+form#registrationForm #forgottenpass {display:none} /* hide forgot password link on registration form - show on login form only */
+
+
+/* stop the modals changing size when hovering over a button */
+
+
+.rulerindent {
+    display: none;
+}
+.fieldlabel, .page-legacyform .content.container .renderdisplaytable .af-form-text, .datael {
+    width: 100% !important;
+}
+.page-legacyform .content.container .renderdisplaytable select {
+    width: 100%;
+}
+.page-legacyform .content.container .renderdisplaytable label, 
+.page-legacyform .content.container .renderdisplaytable .fieldlabel {
+    background: none repeat scroll 0 0;
+    display: block ; /*!important */
+    font-family: "nta",Arial,sans-serif;
+    font-weight: 400 !important;
+    font-size: 19px;
+    margin-top: 20px;   
+}
+
+/* stop select many checkbox labels from appearing under the checkboxes */
+.page-legacyform .content.container .renderdisplaytable .selmanyel label{
+display:inline;
+padding-left:10px;
+padding-right:30px;
+} 
+
+.af-form-text {font-family: "nta",Arial,sans-serif; font-size: 19px;}
+
+.nondatael ol li {
+    margin: 0.8em 0;
+}
+
+
+.page-legacyform .formouter {
+    margin: 0 !important;
+    /*padding: 1em 0 0;*/ /* adds space between blue line and section bar */
+}
+#toolbar > div > div > div {
+    padding-left: 0px !important;
+}
+
+.navbar-brand {
+    height: 60px;
+    padding: 10px 15px;
+}
+
+.navbar-brand .logo {
+    height: 40px;
+}
+
+/*
+.brand, #toolbar .navbar-header , #SelfToolbar .navbar-header {
+    //background-image: url(https://myaccount.northyorks.gov.uk/themes/custom/customer_portal/images/logo.svg);
+    background-repeat: no-repeat;
+    color:white;
+    width: 136px;
+    height: 58px;
+    margin: 3px 0px;
+    background-size: 100%;
+    color:#fff;
+    background-position-y: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+*/
+
+/*
+.navbar-header:after {
+    content: "GOV.UK";
+    padding-left: 41px;
+   
+    padding-top: 5px;
+}
+*/
+
+/*
+.brand, #toolbar .navbar-header  a, #SelfToolbar .navbar-header a {display:none}
+*/
+
+/* FIELDSET 
+.page-legacyform .content.container #body fieldset {
+    clear: both;
+    width: 100%;
+    margin: 20px 0;
+}
+removed to prevent excessive vertical spacing on radio buttons
+*/
+
+.page-legacyform .content.container #body fieldset .forceclear {
+    display: none !important;
+}
+
+.page-legacyform .content.container .renderdisplaytable .af-form-selectone {
+    clear: both;
+    width: 100%;
+}
+
+ 
+
+.page-legacyform .content.container .renderdisplaytable .af-form-selectone .colspan {
+    /*float: left;*/
+/*  clear: both;
+    margin: 4px 0; removed to improve radio button vertical appearance */
+/*  removed to correct a problem with radio buttons - width: 25%; */
+}
+.page-legacyform .content.container .renderdisplaytable .af-form-selectone .colspan .seloneel {
+    clear: both;
+    width: auto;
+    margin: 4px 0;
+}
+
+.page-legacyform .content.container .renderdisplaytable .af-form-selectone .colspan .seloneel .radio {
+/*  float: left !important;
+    width: auto !important;
+    display: inline-block;
+    white-space:nowrap;*/
+    margin-top: 0px;
+font-size: 19px;
+}
+/* clauses disabled as they caused issues with vertical radios */
+
+.page-legacyform .content.container #body button, .page-legacyform .content.container #body input, .page-legacyform .content.container #body select, .page-legacyform .content.container #body {
+    font-size: 100%;
+    margin: 0;
+    padding-bottom: 5px;
+    vertical-align: baseline;
+    box-shadow: none;
+   /* border: 0px !important;*/
+}
+.page-legacyform .content.container #body input[type="text"],
+.page-legacyform .content.container #body input[type="email"],
+.page-legacyform .content.container #body input[type="password"], 
+.page-legacyform .content.container #body input[type="number"],
+.page-legacyform .content.container #body input[type="file"],
+.page-legacyform .content.container #body select,
+.page-legacyform .content.container #body textarea {
+    background-color: #fff;
+    border: 1px solid #bbb !important;
+    border-radius: 0;
+    display: block;
+    margin: 0 0.5em 0 0;
+    padding: 0.5em;
+    width: 320px;
+}
+.page-legacyform .content.container #body textarea {
+    font-size: 19px;
+    width: auto !important;
+}
+
+/* fix an issue with select boxes not being tall enough */
+
+.page-legacyform .content.container #body select:focus {
+    outline: 0 none;
+}
+.page-legacyform .content.container #body input[type="text"]:focus,
+.page-legacyform .content.container #body input[type="email"]:focus,
+.page-legacyform .content.container #body input[type="password"]:focus, 
+.page-legacyform .content.container #body input[type="number"]:focus,
+.page-legacyform .content.container #body input[type="file"]:focus,
+.page-legacyform .content.container #body select:focus,
+.page-legacyform .content.container #body textarea:focus {
+    outline: 2px solid #FFBF47;
+    border-color: #FFBF47 !important;
+}
+@-moz-document url-prefix() { 
+ .page-legacyform .content.container #body input[type="text"]:focus {
+    outline-offset: -12px
+    }
+}
+
+
+.page-legacyform .content.container #body input[type="radio"]:focus {
+    outline: 0 none;
+}
+/*
+.page-legacyform .content.container #body .button {
+    display: inline-block;
+    font-family: "nta",Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 0.66667;
+    padding: 0.45em 0.5em;
+    text-transform: none;
+}
+*/
+.page-legacyform .content.container #body  .deletesubformbutton, 
+.page-legacyform .content.container #body .afnavbuttons .genericsubmit,  /*.btn.btn-primary, body .btn:hover, body .btn, */
+.page-legacyform .content.container #body .repeatablebutton .addrepeatablerow, 
+.page-legacyform .content.container #body .afcalctablebutton .afcalcsub ,
+.page-legacyform .content.container #body .genericsubmit, /* removed .af-form-lookup  from before .genericsubmit */
+.page-legacyform .content.container #body .helparea .genericsubmit,
+.page-legacyform .content.container #body .slotdivision2 .genericsubmit,
+.renderformbuttons{
+    border: medium none;
+    font-family: 'nta',Arial,Helvetica,Verdana,sans-serif;
+    font-weight: normal;
+    padding: 0.6em 0.8em 0.5em 0.8em;
+    -webkit-box-shadow: 0 2px 0 #b5babe;
+    font-size:1em;line-height:1.25;
+    margin-top:4px;
+    margin-bottom:4px;
+    margin-right:4px;
+}
+
+.page-legacyform .content.container #body .afnavbuttons .genericsubmit.previous {
+    background: none;
+    -webkit-box-shadow: none;
+    padding: 0;
+    color: #005ea5;
+    text-decoration: underline;
+}
+@media (min-width: 640px) {
+    .page-legacyform .content.container #body .afnavbuttons .genericsubmit.previous {
+        position: absolute;
+        bottom: -2.25em;
+    }
+}
+
+.page-legacyform .content.container #body .repeatablebutton .addrepeatablerow, 
+.page-legacyform .content.container #body .afcalctablebutton .afcalcsub,.renderformbuttons {
+    /* background: none repeat scroll 0 0 #2B8CC4 !important;
+    border: medium none;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF; */
+  /*   padding: 0.7em 1.6em 0.9em !important; */
+  
+  margin-bottom:10px;
+} 
+
+/* subform delete button */
+.page-legacyform .content.container #body .nowt .deletesubformbutton{
+background-color:#A22E2A;
+color:#fff;
+-webkit-box-shadow: 0 2px 0 #611918;
+}
+.page-legacyform .content.container #body  .deletesubformbutton, 
+.page-legacyform .content.container #body .afnavbuttons  .nextbutton,
+.page-legacyform .content.container #body .afnavbuttons  .submitform,
+.page-legacyform .content.container #body .repeatablebutton .addrepeatablerow,
+.page-legacyform .content.container #body .af-form-lookup .genericsubmit,
+.page-legacyform .content.container #body .afcalctablebutton .afcalcsub,
+.referencepagetable .renderformbuttons{
+    background-color: #00823b;
+    color:#fff;
+    -webkit-box-shadow: 0 2px 0 #003518;
+}
+
+.page-legacyform .content.container #body .afnavbuttons .genericsubmit:hover,
+.page-legacyform .content.container #body .afnavbuttons .genericsubmit:focus,
+.page-legacyform .content.container #body .af-form-lookup  .genericsubmit:focus,
+.page-legacyform .content.container #body .af-form-lookup  .genericsubmit:hover,
+ {
+    background-color: #EFEFEF;
+   /* color: #000000 !important;*/
+}
+.page-legacyform .content.container #body .afnavbuttons  .nextbutton:hover,
+.page-legacyform .content.container #body .afnavbuttons  .nextbutton:focus ,
+.page-legacyform .content.container #body .repeatablebutton .addrepeatablerow:hover,
+.page-legacyform .content.container #body .repeatablebutton .addrepeatablerow:focus,
+.page-legacyform .content.container #body .afcalctablebutton .afcalcsub:hover,
+.page-legacyform .content.container #body .afcalctablebutton .afcalcsub:focus,
+.page-legacyform .content.container #body .afnavbuttons  .submitbutton:hover,
+.page-legacyform .content.container #body .afnavbuttons  .submitbutton:focus {
+    background-color: #00692f;
+}
+
+
+.page-legacyform .content.container #body .hidefordom {
+    display: block;
+    visibility: visible !important;
+}
+.nondatael hr {
+    /*background-color: rgba(0, 0, 0, 0);
+    border-top: 1px solid #CCCCCC;
+    height: 1px !important;*/
+    display: none;
+}
+.page-legacyform .content.container #body .nondatael {
+    font-size: 19px;
+    /*margin: 0 0.5em 1em 0;*/
+}
+.page-legacyform .content.container #body .leftlabel {
+    /*font-size: 19px;
+    line-height: 1;
+    text-indent: 0;*/
+}
+.page-legacyform .content.container #body .af-form-text {
+    width: 100%;
+}
+textarea {
+    clear: both;
+    /*width: 100% !important;*/
+}
+
+dt {
+    font-weight: normal;
+}
+dd {
+    margin-bottom: 15px;
+}
+
+
+/* ==================================================================
+    TABLE 
+================================================================== */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+table tbody {
+}
+table td {
+    padding: 0.5em !important;
+ /*   text-align: center !important; */
+    /*vertical-align: top;*/
+    /*width: 30%;*/
+}
+
+/*
+table td th {
+    height: 3em;
+    width: 100% !important;
+}
+table td div {
+    width: 100% !important;
+}
+*/
+table td span {
+    font-size: 120%;
+    margin: 0 !important;
+    padding: 0.2em 0 !important;
+}
+table td input[type="text"] {
+ /*   width: 98% !important; */ /* removed to allow texts in column-repeating subforms to be small */
+    /*height: 28px;
+    min-width:30px;*/
+}
+/* fix subform field arrangement */
+#body .bws.subform table tr td, #body .bws.subform table tr th.headerlabels.bws, table tr td span, table tr td div,  table tr td div .colwiseel {
+width: auto;
+}
+
+table td .headerlabels, td .fieldtitle {
+    margin: 0 !important;
+    padding: 0.4em 0 0;
+    vertical-align: top !important;
+}
+table td .headerlabels {
+    font-size: 120% !important;
+    text-align: center;
+}
+table td .moneyprefix {
+    padding-top: 0.2em;
+}
+table td div .colwiseel {
+    width: 100% !important;
+}
+table td div .colwiseel label {
+    display: none;
+}
+
+
+
+/* no idea why this is here */
+/*
+.nondatael ol {
+    list-style: disc inside none;
+    margin: 1.5em 0 3em !important;
+}
+*/
+
+/* no idea why this is here */
+/*
+.nondatael ol li {
+    font-size: 120% !important;
+    padding: 0.1em 0.5em 0 0 !important;
+}
+*/
+
+.repeatableouter input[type="text"] {
+    width: 100% !important;
+}
+/*
+.repeatableouter input[type="submit"] {
+    margin-left: 2em !important;
+}
+*/
+.hiddenlabel {
+    display: none !important;
+}
+.compound {
+    width: 100% !important;
+}
+.page-legacyform .renderdisplaytable {
+    clear: both;
+}
+.page-legacyform .renderbuttonstable {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+.page-legacyform .progressbartoptable {
+    border: medium none;
+    margin: 0;
+}
+.page-legacyform .progressbartoptable ol {
+    list-style: decimal inside;
+    margin: 0;
+    padding: 0;
+}
+/*.page-legacyform .progressbartoptable ol li {
+    display: list-item;
+    margin-right: 0px !important;
+}*/
+.page-legacyform .progressbartoptable ol li input {
+    font-family: 'nta';
+}
+.page-legacyform .progressbartoptable ol li input:hover {
+    color: #218CCA;
+    text-decoration: underline;
+}
+.page-legacyform .progressbartoptable .progress1nonclickable,
+.page-legacyform .progressbartoptable .progress0nonclickable,
+.page-legacyform .progressbartoptable .progress1,
+.page-legacyform .progressbartoptable .progress0 {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: medium none;
+    line-height: 1.2;
+    text-transform: none;
+}
+.page-legacyform .content.container #body form, #navigation, #self-content ,#self-content\20 form-wrapper{
+    clear: both;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0;
+    padding-top:10px;
+}
+
+.af-form-date .fieldsetcontrol a {
+background-position-x: 130px;
+background-position-y: 4px;
+background-repeat: no-repeat;
+background-image: url(cal.png);
+background-color: #F8F8F8;
+border: 1px inset #BFC1C3;
+border-radius: 0 0 0 0;
+display: block;
+font-family: "nta",Arial,sans-serif;
+font-size: 19px;
+font-weight: 400;
+line-height: 1.31579;
+margin: 0;
+width: 160px;
+padding: 0.3em 0 0.1em 0.4em;
+text-transform: none;
+/* height: 28px; */
+}
+
+/* undo some of the above for a manual-with-popout */
+.af-form-date .fieldsetcontrol a.datecombo{
+background-position-x:0px;
+border:none;
+background-color:transparent;
+width:20px;
+display:inline;
+padding-right: 20px;
+margin-left: 5px;
+} 
+
+
+
+/* fixes a mismatch between logo position and left side of the form at certain screen sizes */
+
+@media only screen and (min-width:1200px){
+.container {width:auto};
+}
+@media only screen and (max-width: 979px) and (min-width: 768px){
+.navbar .navbar-inner .container {width:724px!important;}
+
+}
+
+@media only screen and (max-width: 40.025em) {
+.page-legacyform .content.container .progressbartoptable {
+    border-bottom: 3px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    margin: 0 0 1.5em;
+    padding: 0.6em 0 0.5em;
+}
+
+.page-legacyform .content.container .progressbartoptable ol {
+    margin: 0;
+    padding: 0;
+}
+.page-legacyform .content.container .progressbartoptable ol li {
+    font-size: 120%;
+    clear: both;
+    line-height: 1.8;
+}
+.page-legacyform .content.container .progressbartoptable input.progress1, .page-legacyform .content.container .progressbartoptable input.progress0 {
+    color: #000000 !important;
+    text-decoration: none;
+}
+.page-legacyform .content.container .progressbartoptable input.progress1 {
+    color: #2B8CC4 !important;
+    font-weight: bold;
+    background: none !important;
+    border:  none !important;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    font-family: inherit;
+}
+
+/*
+.page-legacyform .content.container #body .afnavbuttons {
+    padding: 2em 0 !important;
+}
+*/
+
+.page-legacyform .content.container #body .afnavbuttons .genericsubmit {
+  /*  box-shadow: none;
+    clear: both;
+    color: #2E3191;
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    height: 60px;
+    line-height: 1.25;*/
+    width: 100%;
+    margin-top:5px;
+}
+.page-legacyform .content.container #body .afnavbuttons .previous,
+.page-legacyform .content.container #body .afnavbuttons .nextbutton,
+.page-legacyform .content.container #body .afnavbuttons .pretbutton,
+.page-legacyform .content.container #body .afnavbuttons .savebutton,
+.page-legacyform .content.container #body .afnavbuttons .cancelbutton {
+    float: left !important;
+/*    margin: 0 !important; */
+    padding: 0.75em 3.4em;
+}
+/*
+.page-legacyform .content.container #body .afnavbuttons .nextbutton {
+    background: url("imgs/arrow-sprite-nxt-pre.png") no-repeat scroll 98% -146px rgba(0, 0, 0, 0) !important;
+    float: left !important;
+    text-align: right !important;
+}
+.page-legacyform .content.container #body .afnavbuttons .pretbutton {
+    background: url("imgs/arrow-sprite-nxt-pre.png") no-repeat scroll 2% 10px #F8F8F8 !important;
+}
+.page-legacyform .content.container #body .afnavbuttons .cancelbutton {
+    float: right !important;
+}
+
+.page-legacyform .content.container #body .afnavbuttons .nextbutton:hover, .page-legacyform .content.container #body .afnavbuttons .pretbutton:hover {
+    background-color: #F8F8F8 !important;
+}
+*/
+}
+
+
+@media only screen and (min-width: 40.025em) {
+.page-legacyform .content.container .progressbartoptable {
+    border-top: 1px solid #dee0e2;
+    border-bottom: 3px solid #dee0e2;
+}
+.page-legacyform .content.container .progressbartoptable:before,
+.page-legacyform .content.container .progressbartoptable:after {
+    content: " ";
+    display: table;
+}
+.page-legacyform .content.container .progressbartoptable:after {
+    clear: both;
+}
+.page-legacyform .content.container .progressbartoptable ol {
+    
+}
+.page-legacyform .content.container .progressbartoptable ol li {
+    float: left;
+    margin-right: 1em;
+    padding: 0.75em 0;
+}
+.page-legacyform .content.container .progressbartoptable ol li input {
+    margin: 0;
+    padding: 0 !important;
+    background-color: transparent !important;
+    color: #000000 !important;
+    font: inherit !important;
+    box-shadow: none !important;
+    border: 0px !important;
+    -webkit-box-shadow: none !important;
+}
+
+.page-legacyform .content.container .progressbartoptable li.activenav {
+    position: relative;
+    top: 3px;
+    margin-top: -3px;
+    border-bottom: 3px solid #2B8CC4;
+}
+
+
+/*
+.page-legacyform .content.container .progressbartoptable input.progress1 {
+    border-bottom: 2px solid #2B8CC4;
+}
+.page-legacyform .content.container .progressbartoptable input.progress0 {
+    border-bottom: 2px solid #CCCCCC;
+}
+*/
+
+/*
+.page-legacyform .content.container #body .afnavbuttons {
+    padding: 2em 0 !important;
+} */
+
+/*
+.page-legacyform .content.container #body .afnavbuttons .genericsubmit {
+    box-shadow: none;
+    color: #2E3191;
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    height: 80px;
+    line-height: 1.25;
+    width: 25%;
+}
+
+*/
+.page-legacyform .content.container #body .afnavbuttons {
+   /* border-bottom: 1px solid #CCCCCC;
+    height: 80px; */   
+    margin-bottom: 3.5em;
+    position: relative;
+}
+
+.page-legacyform .content.container #body .deletemessagediv input,
+.page-legacyform .content.container #body .afnavbuttons input ,
+.referencepagetable .renderformbuttons{
+   /* background-color: #FFFFFF !important;
+    float: left !important;*/
+   /* margin: 5px 5px 0px 0px ;*/ /* !important */
+    /*padding: 0.75em 3.4em !important;*/
+}
+/*
+.page-legacyform .content.container #body .afnavbuttons .nextbutton:hover, .page-legacyform .content.container #body .afnavbuttons .pretbutton:hover, .page-legacyform .content.container #body .afnavbuttons .savebutton:hover, .page-legacyform .content.container #body .afnavbuttons .cancelbutton:hover {
+    background-color: #F8F8F8 !important;
+}
+
+.page-legacyform .content.container #body .afnavbuttons .nextbutton {
+    background: url("imgs/arrow-sprite-nxt-pre.png") no-repeat scroll 98% -140px rgba(0, 0, 0, 0) !important;
+    text-align: right !important;
+}
+
+.page-legacyform .content.container #body .afnavbuttons .pretbutton {
+    background: url("imgs/arrow-sprite-nxt-pre.png") no-repeat scroll 2% 16px rgba(0, 0, 0, 0) !important;
+    text-align: left !important;
+}
+*/
+.page-legacyform .content.container #body .afnavbuttons .cancelbutton {
+    float: right !important;
+    margin-right:0px !important;
+}
+}
+
+.afternavbutton {
+    display: none; 
+}
+
+label.bws.radio {
+    padding: 5px;
+}
+
+.bws.colspan.af-form-number {
+    width:  inherit;
+}
+
+
+
+/** specific styling for DfE budget forecast form **/
+
+.formlookuppopup{
+	border: 2px solid #CCCCCC;
+	padding: 5px;
+	background: #fff;
+}
+.page-legacyform .content.container #body input[type="text"]:focus {
+  outline-offset: 0px;
+}
+	
+.page-legacyform .progressbartoptable ol li {
+	display:block;
+}
+.asset_table table td span,.forecast_table table td span,.balance_table table td span {
+    font-size: 100%;
+}
+
+.forecast_table input[type=text] {
+	width: 5em !important;
+}
+.page-legacyform .content.container #body .forecast_table textarea {
+	width: 9em !important;
+}
+.forecast_table fieldset {
+	margin-top: 0;
+}
+
+.balance_table input[type=text] {
+width: 5em !important;
+}
+.page-legacyform .content.container #body .balance_table textarea {
+width: 9em !important;
+}
+
+.forecast_table legend, .asset_table legend{
+	border: none;
+}
+.forecast_table.forecast_header{
+	position: relative;
+	max-width: 960px;
+}
+.forecast_table.forecast_header tr {
+    background: none repeat scroll 0 0 #FFFFFF;
+    max-width: 960px;
+   /* position: fixed;*/
+}
+.forecast_table.forecast_header tr th {
+    padding:5px;
+}
+
+/*.forecast_table tr:hover{
+	background-color: #E7E7E7;
+}*/
+fieldset.forecast_table{
+	margin-top: 0;
+}
+.forecast_table.total, .asset_table.total, .balance_table.total{
+	font-weight:bold;
+	border-top: 2px solid #ccc;
+}
+.ac_results {z-index:1000;}
+
+.content > #self-content {
+    display: block;
+}
+
+#header img {
+    display: none;
+}
+
+
+.page-legacyform .formouter h1 { 
+	font-size: 48px; 
+	line-height: 1.04167; 
+	color: #0b0c0c; 
+	font-weight: 600;
+    margin-bottom: 1em;
+}
+.page-legacyform .formouter h2 {
+    font-size: 27px;
+    font-weight: bold;
+    color: #0b0c0c;
+    padding: 0;
+}
+.page-legacyform .formouter p {
+    margin: 0.75em 0;
+}
+.page-legacyform .formouter a {
+    color: #005ea5;
+    text-decoration: underline;
+}
+.page-legacyform .formouter a:hover {
+    color: #2e8aca;
+}
+
+.page-legacyform .content.container #body .nondatael { 
+    display: block; 
+    margin: 1em 0 0 0;
+}
+
+.page-legacyform .formouter .fieldlabel, 
+.page-legacyform .formouter .bws.colspan.fieldlabel.clear {
+    margin-bottom: 0.5em;
+}
+.page-legacyform .content.container #body .af-form-compound .compound select {
+    width: auto;
+}
+img[src*="formhelptext.gif"] {
+    width: 18px;
+    margin-left: 0.25em;
+}
+legend {
+    border-bottom: 0;
+}
+
+/* My requests iframe */
+
+
+
+
+/* Footer */
+
+/* Global footer */
+
+ #footer a:link,. #footer a:visited, #footer a:hover, #footer a:active {
+  color: #0b0c0c !important;
+}
+
+#footer a:focus {
+  outline: 3px solid transparent;
+  color: #0b0c0c;
+  background-color: #fd0 !important;
+  -webkit-box-shadow: 0 -2px #fd0,0 4px #0b0c0c;
+  box-shadow: 0 -2px #fd0,0 4px #0b0c0c;
+  text-decoration: none;
+}
+
+
+#footer {
+  background-color: #f1f2f3;
+  border-top: 1px solid #a1acb2; }
+  #footer .footer-wrapper {
+    margin: 0 auto;
+    width: auto;
+    max-width: 1020px;
+    padding-top: 20px;
+    background-color: #f1f2f3;
+    margin: 0 auto; }
+    @media (min-width: 641px) {
+      #footer .footer-wrapper {
+        padding-top: 60px; } }
+  
+#footer a {
+    color: #0b0c0c; text-decoration: underline;}
+  /*  #footer a:hover {
+      color: #171819; }*/
+
+  #footer h2 {
+    font-family: "nta", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 400;
+    text-transform: none;
+    font-weight: bold;
+    color: #171819;
+    margin: 0; }
+    @media (max-width: 640px) {
+      #footer h2 {
+        font-size: 20px;
+        line-height: 1.2; } }
+    #footer h2 a {
+      color: inherit; }
+  #footer .footer-meta {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 60px;
+    clear: both;
+    font-size: 0;
+    color: #0b0c0c; }
+    @media (min-width: 641px) {
+      #footer .footer-meta {
+        padding-left: 30px;
+        padding-right: 30px; } }
+    #footer .footer-meta .footer-meta-inner {
+      display: inline-block;
+      vertical-align: bottom;
+      width: 100%; }
+      @media (min-width: 641px) {
+        #footer .footer-meta .footer-meta-inner {
+          width: 50%; } }
+      #footer .footer-meta .footer-meta-inner ul {
+        font-family: "Open Sans", Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 300;
+        text-transform: none;
+        display: inline-block;
+        list-style: none;
+        margin: 0 0 1.5em 0;
+        padding: 0; }
+        @media (max-width: 640px) {
+          #footer .footer-meta .footer-meta-inner ul {
+            font-size: 14px;
+            line-height: 1.5; } }
+        @media (min-width: 641px) {
+          #footer .footer-meta .footer-meta-inner ul {
+            margin: 0 0 1em 0; } }
+        #footer .footer-meta .footer-meta-inner ul li {
+          display: inline-block;
+          margin: 0 15px 0 0; }
+      #footer .footer-meta .footer-meta-inner .open-government-licence {
+        clear: left;
+        position: relative; }
+        @media (min-width: 641px) {
+          #footer .footer-meta .footer-meta-inner .open-government-licence {
+            padding-left: 53px; } }
+        #footer .footer-meta .footer-meta-inner .open-government-licence h2 {
+          margin-bottom: 1em; }
+          @media (min-width: 641px) {
+            #footer .footer-meta .footer-meta-inner .open-government-licence h2 {
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 41px;
+              height: 100%; } }
+          #footer .footer-meta .footer-meta-inner .open-government-licence h2 a {
+            display: block;
+            width: 41px;
+            height: 17px;
+            overflow: hidden;
+            text-indent: -999em;
+            background: url(https://fs-filestore-eu.s3-eu-west-1.amazonaws.com/dfe/live/dfe-images/ogl.png) 0 0 no-repeat; }
+            @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+              #footer .footer-meta .footer-meta-inner .open-government-licence h2 a {
+                background-image: url(https://fs-filestore-eu.s3-eu-west-1.amazonaws.com/dfe/live/dfe-images/ogl2x.png);
+                background-size: 41px 17px; } }
+        #footer .footer-meta .footer-meta-inner .open-government-licence p {
+          font-family: "Open Sans", Arial, sans-serif;
+          font-size: 16px;
+          line-height: 1.25;
+          font-weight: 300;
+          text-transform: none;
+          margin: 0;
+          padding-top: 0.1em; }
+          @media (max-width: 640px) {
+            #footer .footer-meta .footer-meta-inner .open-government-licence p {
+              font-size: 14px;
+              line-height: 1.14286; } }
+    #footer .footer-meta .copyright {
+      font-family: "Open Sans", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.25;
+      font-weight: 300;
+      text-transform: none;
+      margin: 30px 0 0 0;
+      width: 100%;
+      display: block; }
+      @media (max-width: 640px) {
+        #footer .footer-meta .copyright {
+          font-size: 14px;
+          line-height: 1.14286; } }
+      @media (min-width: 641px) {
+        #footer .footer-meta .copyright {
+          display: inline-block;
+          text-align: inherit;
+          width: 50%;
+          padding-top: 15px;
+          margin-top: 0; } }
+      #footer .footer-meta .copyright a {
+        display: block;
+        background-image: url(https://files-northyorkshire-fspub.s3.amazonaws.com/nyc/test/images/NYCC_logo_2015_Black_small.png);
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+        text-align: center;
+        text-decoration: none;
+        padding: 115px 0 0 0; }
+        @media (min-width: 641px) {
+          #footer .footer-meta .copyright a {
+            background-position: 100% 0%; } }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+          #footer .footer-meta .copyright a {
+            background-image: url(https://files-northyorkshire-fspub.s3.amazonaws.com/nyc/test/images/NYCC_logo_2015_Black_small.png);
+            background-size: 125px 102px; } }
+        @media (min-width: 641px) {
+          #footer .footer-meta .copyright a {
+            text-align: right; } }
+
+/* Neutralise https://dfestaging.achieveservice.com/fillform/styles/AchieveForms.min-blessed1.css*/
+/*, html._AF span:not(.fa) , body._AF span:not(.fa)*/
+ body._AF div, body._AF h1, body._AF h2, body._AF h3, body._AF h4, body._AF h5, body._AF p,  div._AF div, div._AF h1, div._AF h2, div._AF h3, div._AF h4, div._AF h5, div._AF p, div._AF span:not(.fa),  html._AF div, html._AF h1, html._AF h2, html._AF h3, html._AF h4, html._AF h5, html._AF p {
+   /* font-family: nta, Arial, sans-serif;*/
+font-family: "Open Sans", Arial, sans-serif;
+    color: #0b0c0c;
+}
+/*body._AF a,div._AF a,html._AF a,*/
+.achieveforms-container .all-sections .field .fieldContent .fieldInput.content, .achieveforms-container .all-sections .field .fieldContent .fieldInput.upload, .achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.content, .achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.upload {
+    font-size: 19px;
+}
+.all-sections.col-xs-12.AF-col-xs-fluid.col-sm-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+#page.render {
+    padding: 0;
+}
+._AF #page.print, ._AF #page.render, .achieveforms-container #page.print, .achieveforms-container #page.render {
+    padding-top: 0;
+}
+.achieveforms-container header.formHeader, .achieveforms-container header.processHeader {
+    padding: 0;
+}
+
+
+.achieveforms-container .all-sections .field .fieldContent .fieldName, .achieveforms-container .all-sections .field .fieldContent .subform-summary {
+    font-size: 19px;
+}
+._AF input[type=date], ._AF input[type=datetime-local], ._AF input[type=datetime], ._AF input[type=email], ._AF input[type=month], ._AF input[type=number], ._AF input[type=password], ._AF input[type=search], ._AF input[type=tel], ._AF input[type=text], ._AF input[type=time], ._AF input[type=url], ._AF input[type=week], ._AF select,  .achieveforms-container input[type=date], .achieveforms-container input[type=datetime-local], .achieveforms-container input[type=datetime], .achieveforms-container input[type=email], .achieveforms-container input[type=month], .achieveforms-container input[type=number], .achieveforms-container input[type=password], .achieveforms-container input[type=search], .achieveforms-container input[type=tel], .achieveforms-container input[type=text], .achieveforms-container input[type=time], .achieveforms-container input[type=url], .achieveforms-container input[type=week], .achieveforms-container select {
+    border-radius: 0;
+    background-color: #f8f8f8;
+    max-width: 320px;
+}
+.achieveforms-container .all-sections .field .fieldContent input.fieldInput {
+    max-width: 320px;
+}
+.btn {
+    padding: .526315em .789473em .263157em;
+    line-height: 1.25;
+}
+._AF .btn-af, .achieveforms-container .btn-af {
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    border: 0;
+    background-color: #00823b;
+    box-shadow: 0 2px 0 #003518;
+}
+
+.upload-button{
+    border: 1px solid #000 !important;
+    background-color: #ecedec !important;
+    box-shadow: none !important;
+    color: #0b0c0c !important;
+}
+
+.upload-button:focus{
+ background-color: #fd0 !important;
+ color: #0b0c0c !important;
+}
+.upload-button:hover{
+ background-color: #dcdddc !important;
+ color: #0b0c0c !important;
+}
+
+/*._AF .btn-af.active, ._AF .btn-af:active, ._AF .btn-af:focus, ._AF .btn-af:hover, .achieveforms-container .btn-af.active, .achieveforms-container .btn-af:active, .achieveforms-container .btn-af:focus, .achieveforms-container .btn-af:hover, .open .dropdown-toggle._AF .btn-af, .open .dropdown-toggle.achieveforms-container .btn-af {
+    background-color: #00692f;
+}*/
+
+._AF .btn-af.active, ._AF .btn-af:active,  ._AF .btn-af:hover, .achieveforms-container .btn-af.active, .achieveforms-container .btn-af:active, .achieveforms-container .btn-af:hover, .open .dropdown-toggle._AF .btn-af, .open .dropdown-toggle.achieveforms-container .btn-af {
+    background-color: #00692f;
+}
+.achieveforms-container .fillinButtons .btn:focus,._AF .btn-af:focus, .achieveforms-container .btn-af:focus {
+  border-color: #fd0;
+  color: #0b0c0c;
+  outline: 3px solid transparent;
+  -webkit-box-shadow: inset 0 0 0 1px #fd0;
+  box-shadow: inset 0 0 0 1px #fd0;
+}
+
+ .btn:focus:not(:active):not(:hover),.btn-af:focus:not(:active):not(:hover) {
+  border-color: #fd0;
+  color: #0b0c0c;
+  background-color: #fd0;
+  -webkit-box-shadow: 0 2px 0 #0b0c0c;
+  box-shadow: 0 2px 0 #0b0c0c;
+}
+.achieveforms-container .fillinButtons .btn, .achieveforms-container .fillinButtons .btn-af {
+    color: #fff;
+    font-size: 19px;
+    min-width: auto;
+}
+.achieveforms-container .fillinButtons .btn i {
+    display: none;
+}
+.achieveforms-container .fillinButtons .btn i, .achieveforms-container .fillinButtons .btn span {
+   /* color: #fff;*/
+    padding-right: 0;
+}
+.achieveforms-container .fillinButtons .btn:focus {
+    color: #0b0c0c;
+    background-color: #ffdd00;
+}
+.achieveforms-container .sectionsHead {
+    background: none;
+    border-bottom: 1px solid #dee0e2;
+    margin-top: 0.5em;
+}
+.achieveforms-container .sectionsHead .sectionsHeadInner {
+    border-bottom: none;
+}
+.nav-tabs>li {
+    margin-right: 1.0rem; /*1.4rem*/
+    margin-bottom: 0;
+}
+.navbar-inverse .navbar-nav>li>a
+{ color:#fff;
+}
+.nav>li>a, .nav>li>span {
+    padding: 0;
+    color: #6f777b;
+    border-bottom: 0.4rem solid transparent;
+}
+.nav-tabs>li>a:hover, .nav-tabs>li>span:hover {
+    border-color: transparent;
+    background-color: transparent;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>span, .nav-tabs>li.active>span:focus, .nav-tabs>li.active>span:hover {
+    border-bottom: 0.4rem solid #0b0c0c;
+}
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active .sectionNameTab {
+    border-color: transparent;
+    border-bottom-color: #0b0c0c;
+    border-right: 0;
+}
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active a {
+    color: #0b0c0c !important;
+    font-weight: 700;
+}
+.achieveforms-container .all-sections .field .icon-valid.alignAbove {
+    top: 2.5em;
+}
+.achieveforms-container .all-sections .field .icon-valid {
+    right: 2em;
+}
+._AF input[type=date].error:focus, ._AF input[type=date]:focus, ._AF input[type=datetime-local].error:focus, ._AF input[type=datetime-local]:focus, ._AF input[type=datetime].error:focus, ._AF input[type=datetime]:focus, ._AF input[type=email].error:focus, ._AF input[type=email]:focus, ._AF input[type=month].error:focus, ._AF input[type=month]:focus, ._AF input[type=number].error:focus, ._AF input[type=number]:focus, ._AF input[type=password].error:focus, ._AF input[type=password]:focus, ._AF input[type=search].error:focus, ._AF input[type=search]:focus, ._AF input[type=tel].error:focus, ._AF input[type=tel]:focus, ._AF input[type=text].error:focus, ._AF input[type=text]:focus, ._AF input[type=time].error:focus, ._AF input[type=time]:focus, ._AF input[type=url].error:focus, ._AF input[type=url]:focus, ._AF input[type=week].error:focus, ._AF input[type=week]:focus, ._AF select.error:focus, ._AF select:focus, ._AF textarea.error:focus, ._AF textarea:focus, .achieveforms-container input[type=date].error:focus, .achieveforms-container input[type=date]:focus, .achieveforms-container input[type=datetime-local].error:focus, .achieveforms-container input[type=datetime-local]:focus, .achieveforms-container input[type=datetime].error:focus, .achieveforms-container input[type=datetime]:focus, .achieveforms-container input[type=email].error:focus, .achieveforms-container input[type=email]:focus, .achieveforms-container input[type=month].error:focus, .achieveforms-container input[type=month]:focus, .achieveforms-container input[type=number].error:focus, .achieveforms-container input[type=number]:focus, .achieveforms-container input[type=password].error:focus, .achieveforms-container input[type=password]:focus, .achieveforms-container input[type=search].error:focus, .achieveforms-container input[type=search]:focus, .achieveforms-container input[type=tel].error:focus, .achieveforms-container input[type=tel]:focus, .achieveforms-container input[type=text].error:focus, .achieveforms-container input[type=text]:focus, .achieveforms-container input[type=time].error:focus, .achieveforms-container input[type=time]:focus, .achieveforms-container input[type=url].error:focus, .achieveforms-container input[type=url]:focus, .achieveforms-container input[type=week].error:focus, .achieveforms-container input[type=week]:focus, .achieveforms-container select.error:focus, .achieveforms-container select:focus, .achieveforms-container textarea.error:focus, .achieveforms-container textarea:focus {
+    border-color: transparent;
+    box-shadow: none;
+    outline: 0.2rem solid #ffdd00;
+}
+@media only print, only screen and (min-width: 768px) {
+    h1, h2, h3, h4, h5, h6 {
+        line-height: 1.2;
+    }
+}
+@media only print, only screen and (max-width: 767px) {
+    .achieveforms-container .fillinButtons-wrapper .fillinButtons .btn {
+        font-size: 16px;
+    }
+}
+
+
+
+
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper .check2:focus+label:before, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper .radio2:focus+label:before, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper .check2:focus+label:before, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper .radio2:focus+label:before
+    {    color: #0b0c0c;}
+
+.help-icon {
+    width: 16px;
+    height: 16px;
+   /* background-image: url(http://fs-filestore-eu.s3-eu-west-1.amazonaws.com/dfe/live/icon-information.png);*/
+    background-size: 20px 20px;
+    position: absolute;
+    width: 0;
+height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 16px;
+border-color: transparent transparent transparent #1d62ab;
+
+
+}
+.collapsed .help-icon {
+    width: 16px;
+    height: 16px;
+   
+    background-size: 20px 20px;
+    position: absolute;
+    
+    border-style: solid;
+border-width: 16px 10px 0 10px;
+border-color: #1d62ab transparent transparent transparent;
+
+}
+
+.help-content{
+    margin-left:21px;
+    font-size: 19px;
+    font-weight: normal;
+}
+.panel-body
+{
+    padding-left: 20px;
+    border-left: 5px solid #cecece;
+}
+.panel-collapse
+{
+    padding-top:10px;
+}
+
+/*Check box and radio button*/
+.gds-multiple-choice input {
+   /* position: absolute;*/
+    cursor: pointer;
+    left: 0;
+    top: 0;
+    width: 35px;
+  /*  height: 35px;*/
+    z-index: 1;
+    margin: 0;
+    zoom: 1;
+    opacity: 0;
+}
+    .gds-multiple-choice {
+    display: block;
+    float: none;
+    clear: left;
+    position: relative;
+    padding: 15px 0 0 45px;
+    
+}
+
+.gds-multiple-choice [type=radio]:focus {
+  border-width: 4px;
+  -webkit-box-shadow: 0 0 0 4px #fd0;
+  box-shadow: 0 0 0 4px #fd0;
+}
+
+    .gds-multiple-choice [type=checkbox] + label::before , .multiple-choice [type=radio] + label::before {
+    content: "";
+    border: 2px solid #000 !important;
+    background: transparent;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+.gds-multiple-choice [type=radio] + label::before {
+    content: "";
+    border: 2px solid #000 !important;
+    background: transparent;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+border-radius:50%;
+}
+
+
+.gds-multiple-choice [type=checkbox] + label::after {
+    content: "";
+    border: solid;
+    border-width: 0 0 5px 5px;
+    background: transparent;
+    border-top-color: transparent;
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    top: 15px;
+    left: 8px;
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    zoom: 1;
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+.gds-multiple-choice [type=radio] + label::after {
+    content: "";
+    border: 10px solid #000;
+    background: transparent;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    zoom: 1;
+    filter: alpha(opacity=0);
+    opacity: 0;
+ border-radius:50%;
+}
+.gds-multiple-choice:checked + label::after {
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+/*Below styles replace the green color on this fields*/
+fieldset.valid input[type=checkbox]+label:before, fieldset.valid input[type=radio]+label:before {
+    border-color: #000 !important;
+}
+
+input[type=radio].checked+label:before, input[type=radio]:checked+label:before {
+    content: "\00a0";
+    background-color: #fff;
+    border-color: #000;
+}
+
+.row {
+margin-right:0px !important;
+}
+
+input[type=checkbox].check2:focus+label:before,input[type=checkbox].radio2:focus+label:before,input[type=radio].check2:focus+label:before,input[type=radio].radio2:focus+label:before {
+  color: #52a8ec;
+  border-color: #ffdd00;
+}
+
+input[type=checkbox]+label:before {
+border-radius: 0px !important;
+}
+
+.btn:focus{
+background-color: #ffdd00;
+color:#0b0c0c !important;
+}
+
+
+.achieveforms-container .resumable-file {
+    overflow: auto !important;
+}
+.achieveforms-container .resumable-file .resumable-file-name {
+    max-width: 19em;
+    /* text-overflow: ellipsis; */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+input[type=checkbox].check2:focus+label:before {
+  color: #52a8ec;
+  border: 3px solid #0b0c0c;
+  box-shadow:0 0 0px 3px #ffdd00 !important;
+}
+input[type=radio].radio2:focus+label:before {
+  color: #52a8ec;
+  border: 3px solid #0b0c0c;
+  box-shadow:0 0 0px 3px #ffdd00 !important;
+}
+
+.achieveforms-container .submission-message .submission-message-btn-wrapper .btn.save
+{background-color:inherit !important;
+box-shadow:none;
+text-decoration:underline;
+padding: .526315em .0em .263157em;
+}
+
+.achieveforms-container .submission-message .submission-message-btn-wrapper .btn.save:focus{
+border-bottom: 4px solid #0b0c0c !important;
+background-color:#fd0 !important;
+text-decoration:none;
+}
+
+.achieveforms-container .submission-message .submission-message-btn-wrapper
+{
+text-align:left;
+}
+
+
+.btn .btn-af .previousbutton
+{
+margin-top:40px !important;
+}
+
+.previousbutton
+{
+margin-top:15px !important;
+background-color: #fff !important;
+color: #0b0c0c !important;
+padding: 0px !important;
+}
+
+
+.fillinButtonsRight{
+float:left !important;
+/*position:absolute;*/
+width:0% !important;
+margin-top:10px;
+}
+
+/*hot fix for button styles 29/10/2020*/
+
+.achieveforms-container .fillinButtons .fillinButtonsLeft{
+position:absolute;
+/*margin-top:35px !important;*/}
+
+.actions-list-right{float:left !important;}
+
+/*.nextbutton
+{
+margin-top:-20px !important;
+position:relative;
+}*/
+
+.nextbutton
+{
+/*margin-top:-20px !important;*/
+margin-top:-38px !important;
+/*position:relative;*/
+}
+
+
+.next-element
+{
+float:left !important;
+position:absolute !important;
+}
+
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper label, .product_self .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper label, .product_service .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper label, .product_service .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper label {font-size:19px !important;}
+
+
+/*positioning of save and continue buttons*/
+
+.achieveforms-container .fillinButtons .fillinButtonsRight {
+    width: 50% !important;
+    position: relative;
+    text-align: right;
+    float: left !important;
+}
+
+.achieveforms-container .fillinButtons .btn.savebutton:focus  {
+	background-color:#fd0 !important;
+}
+
+.achieveforms-container .fillinButtons .btn.savebutton  {
+    margin-right: 1em;
+    float: left !important;
+    margin-top: -38px !important;
+	background-color: #f3f2f1;
+    color: #0b0c0c;
+}
+.achieveforms-container .fillinButtons .btn.savebutton:hover
+{
+background-color: #b1b4b6
+} 
+
+.achieveforms-container .fillinButtons .btn.submitbutton {
+    margin-right: 1em;
+    float: left !important;
+    margin-top: -38px !important;
+}
+
+.achieveforms-container .fillinButtons .btn.cancelbutton {
+   /* margin-right: 1.5em !important;
+    margin-top: -28px !important;*/
+    margin-left: 5.5em !important;
+    margin-top: -39px !important;
+}
+
+
+/* Section head for mobile devices*/
+
+@media (max-width: 767px)
+{
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper {
+    width: auto !important;
+    margin: 0px 5px !important; 
+}
+
+
+.sections-toggle-wrapper.visible-xs {
+    display: none !important;
+}
+    ul.sectionsHeadInner {
+    display: inline !important;
+    }
+    
+}
+
+.submission-message-btn-wrapper .finish {
+display:none !important;}
+
+/*DAte displayAsSeparated */
+
+._AF input[type=text].displayAsSeparated, .achieveforms-container input[type=text].displayAsSeparated {
+    width: 3em;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 25px !important;
+}
+
+._AF .separatedDateFieldLabel, .achieveforms-container .separatedDateFieldLabel {
+    font-size: 1.1875rem;
+    font-weight: 400;
+    position: absolute;
+    margin-top: -20px;
+    padding-bottom: 16px;
+    line-height: 1.31579;
+    font-family:"Open Sans",arial,sans-serif;
+}
+
+.label-notbold{
+
+font-weight:normal !important;
+margin-top:15px !important;
+}
+.label-space-top{
+margin-top:15px !important;
+}
+
+
+.achieveforms-container .help-text span {
+    position: relative !important;
+     /*top: 5px; */
+     left: 0px; 
+}
+
+
+.nav-tabs>li.active>button{
+    border-bottom-width: 6px !important;
+font-weight: 700;
+    color: black !important;
+}
+
+.nav-tabs>li>button{
+	border-bottom-width: 6px !important;
+	padding: 5px 10px 5px 2px !important;
+}
+
+
+/*GDS Other*/
+.gds-other-outer{
+    margin-left: 15px;
+    padding-left: 28px;
+    border-left: 4px solid #b1b4b6;
+    margin-top: -20px;
+}
+
+.gds-other-label{font-weight:normal !important;}
