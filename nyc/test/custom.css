@@ -1,15 +1,15 @@
 /*Seperated Datefield Resize fix*/
-    .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[data-type=date-subfield]
-    {
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[data-type=date-subfield]
+{
     border: 2px solid #0b0c0c;
     border-radius: 0;
     font-size: 19px;
     height: 40px;
     
 }
-    .download-pdf{
-       visibility: hidden;
-    }
+.download-pdf{
+    visibility: hidden;
+}
 /*Static text bottom margin*/
 
 .achieveforms-container .all-sections .field .fieldContent .fieldInput.content {

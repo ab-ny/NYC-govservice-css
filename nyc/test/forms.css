@@ -3,12 +3,12 @@
 
 body,table td span,.achieveforms-container table.repeatable-table thead,.achieveforms-container table.repeatable-table, .achieveforms-container .english, .achieveforms-container .help-text, .achieveforms-container .numberToText{
 	font-size:19px;
-
+	
 }
 
 .achieveforms-container .help-text{
-padding:5px 0px !important;
-line-height:1.25;
+	padding:5px 0px !important;
+	line-height:1.25;
 }
 
 .container, .container-fluid{
@@ -19,18 +19,18 @@ body._AF h1, div._AF h1, html._AF h1{
 	font-size:48px;
 }
 a:link,html._AF a {
-    color: #005ea5;
+	color: #005ea5;
 	text-decoration: underline;
 }
 a:hover,html._AF a:hover {
-    color: #2b8cc4;
+	color: #2b8cc4;
 }
 p{
 	margin-bottom:1.05em;
 }
 .achieveforms-container .all-sections .field .fieldContent .fieldInput, .achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode{
 	
-
+	
 }
 .achieveforms-container .all-sections .field .fieldContent input.fieldInput,.achieveforms-container .all-sections .field .fieldContent select,.input-group{
 	width:325px;
@@ -64,7 +64,7 @@ div[data-field-type=textarea] .input-group {
 ._AF .postfix-wrapper.error .postfix, .achieveforms-container .postfix-wrapper.error .postfix,._AF .postfix-wrapper.valid .postfix, .achieveforms-container .postfix-wrapper.valid .postfix,.achieveforms-container .all-sections .field .fieldContent .postfix-wrapper:not(.textarea-length-count):not(.input-length-count) .postfix, .achieveforms-container .all-sections .field .fieldContent .prefix-wrapper .postfix{
 	border-left:none;
 	border-radius:0;
-
+	
 }
 .achieveforms-container .all-sections .field .fieldContent .fieldName,.achieveforms-container .all-sections .field .fieldContent .fieldInput, .achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode{
 	min-height:10px;
@@ -78,10 +78,10 @@ div[data-field-type=textarea] .input-group {
 }
 .field label,.achieveforms-container .all-sections .field .fieldContent .fieldName, .achieveforms-container .all-sections .field .fieldContent .subform-summary{
 	
-
-/*display: block;*/
-color: #0b0c0c;
-padding-bottom: 2px;
+	
+	/*display: block;*/
+	color: #0b0c0c;
+	padding-bottom: 2px;
 	font-weight:600;
 	margin-bottom:0;
 }
@@ -90,7 +90,7 @@ padding-bottom: 2px;
 }
 .achieveforms-container .all-sections .field .fieldContent .fieldName ._fieldName{
 	margin-bottom: 0;
-font-family: "GDS Transport", Arial, sans-serif !important;
+	font-family: "GDS Transport", Arial, sans-serif !important;
 }
 
 span.mandatory{
@@ -98,14 +98,14 @@ span.mandatory{
 }
 
 ._AF .btn.btn-default, .achieveforms-container .btn.btn-default{
-	    
-    min-width: auto;
+	
+	min-width: auto;
 	border-radius: 0;
-box-shadow: none;
-text-shadow: none;
-border: 0;
-background-color: #00823b;
-box-shadow: 0 2px 0 #003518;
+	box-shadow: none;
+	text-shadow: none;
+	border: 0;
+	background-color: #00823b;
+	box-shadow: 0 2px 0 #003518;
 	color:#fff;
 }
 
@@ -117,11 +117,11 @@ box-shadow: 0 2px 0 #003518;
 	font-size:19px;
 	font-weight:normal;
 	margin-bottom:10px;
-padding-right:15px;
+	padding-right:15px;
 }
 
 ._AF .postfix-wrapper.error .postfix, ._AF .prefix-wrapper.error .prefix, ._AF input.error, ._AF select.error, ._AF textarea.error, .achieveforms-container .postfix-wrapper.error .postfix, .achieveforms-container .prefix-wrapper.error .prefix, .achieveforms-container input.error, .achieveforms-container select.error, .achieveforms-container textarea.error,.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.error input[data-type="date-subfield"],.achieveforms-container .all-sections .field .fieldContent span.input-length-count.error, .achieveforms-container .all-sections .field .fieldContent span.textarea-length-count.error,._AF select.valid,._AF .postfix-wrapper.valid .postfix, ._AF .prefix-wrapper.valid .prefix, ._AF input.valid, ._AF select.valid, ._AF textarea.valid, .achieveforms-container .postfix-wrapper.valid .postfix, .achieveforms-container .prefix-wrapper.valid .prefix, .achieveforms-container input.valid, .achieveforms-container select.valid, .achieveforms-container textarea.valid{
-border: 2px solid #0b0c0c;
+	border: 2px solid #0b0c0c;
 	border-radius:0;
 	font-size:19px;
 	height:40px
@@ -216,20 +216,20 @@ dl dt{
 	position:absolute;
 	/*top:10px;
 	left:35px;*/
-font-family: "GDS Transport", Arial, sans-serif !important;
+	font-family: "GDS Transport", Arial, sans-serif !important;
 }
 .fa-info-circle,.achieveforms-container .help-img{
 	width: 27px;
-height: 27px;
-background-image: url("https://govuk-elements.herokuapp.com/public/images/icon-information.png");
+	height: 27px;
+	background-image: url("https://govuk-elements.herokuapp.com/public/images/icon-information.png");
 }
 .fa-info-circle::before,.fa-question-circle::before {
 	content:none !important;
 }
 .other-input{
 	margin-top: 60px!important;;
-float: left !important;
-margin-left: -244px!important;;
+	float: left !important;
+	margin-left: -244px!important;;
 	border: 2px solid #0b0c0c!important;;
 	border-radius:0!important;;
 	height:40px!important;;
@@ -285,7 +285,7 @@ margin-left: -244px!important;;
 
 .achieveform > .fillinButtons-wrapper >.fillinButtons{
 	position:relative;
-margin-top:15px !important;
+	margin-top:15px !important;
 }
 .achieveform > .fillinButtons-wrapper >.fillinButtons >.savebutton{
 	position:absolute;
@@ -301,7 +301,7 @@ margin-top:15px !important;
 	color: #005ea5;
 	text-decoration: underline;
 	box-shadow:none;
-
+	
 }
 .achieveform > .fillinButtons-wrapper >.fillinButtons >.btn.previousbutton span{
 	color: #005ea5;

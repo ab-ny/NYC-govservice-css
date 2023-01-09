@@ -1,14 +1,14 @@
 /* textarea character count*/
- .charNum{
-        float:left;
-        font-size:smaller;
-        margin-top:-5px;
-    }
+.charNum{
+    float:left;
+    font-size:smaller;
+    margin-top:-5px;
+}
 
 
 
-  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper .check2:focus+label:before, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper .radio2:focus+label:before, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper .check2:focus+label:before, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper .radio2:focus+label:before
-    {    color: #000;}
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper .check2:focus+label:before, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper .radio2:focus+label:before, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper .check2:focus+label:before, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper .radio2:focus+label:before
+{    color: #000;}
 
 
 .achieveforms-container .all-sections .field .fieldContent textarea.fieldInput {
@@ -19,31 +19,31 @@
 .help-icon {
     width: 16px;
     height: 16px;
-   /* background-image: url(http://fs-filestore-eu.s3-eu-west-1.amazonaws.com/dfe/live/icon-information.png);*/
+    /* background-image: url(http://fs-filestore-eu.s3-eu-west-1.amazonaws.com/dfe/live/icon-information.png);*/
     background-size: 20px 20px;
     position: absolute;
     width: 0;
-height: 0;
+    height: 0;
     border-style: solid;
     border-width: 10px 0 10px 16px;
-border-color: transparent transparent transparent #1d62ab;
-
-
+    border-color: transparent transparent transparent #1d62ab;
+    
+    
 }
 .collapsed .help-icon {
     width: 16px;
     height: 16px;
-   
+    
     background-size: 20px 20px;
     position: absolute;
     
     border-style: solid;
-border-width: 16px 10px 0 10px;
-border-color: #1d62ab transparent transparent transparent;
-
+    border-width: 16px 10px 0 10px;
+    border-color: #1d62ab transparent transparent transparent;
+    
 }
 .optional-fieldinput{
-	font-size:19px
+    font-size:19px
 }
 
 .help-content{
@@ -76,11 +76,11 @@ input[type=radio].checked+label:before, input[type=radio]:checked+label:before {
 
 
 
-         
-         
-          /*Check box and radio button*/
+
+
+/*Check box and radio button*/
 .gds-multiple-choice input {
-  /*  position: absolute;*/
+    /*  position: absolute;*/
     cursor: pointer;
     left: 0;
     top: 0;
@@ -91,21 +91,21 @@ input[type=radio].checked+label:before, input[type=radio]:checked+label:before {
     zoom: 1;
     opacity: 0;
 }
-    .gds-multiple-choice {
+.gds-multiple-choice {
     display: block;
-   /* float: none;*/
+    /* float: none;*/
     clear: left;
     position: relative;
     padding: 15px 0 0 45px;
     
 }
-    .gds-multiple-choice [type=checkbox] + label::before , .multiple-choice [type=radio] + label::before {
+.gds-multiple-choice [type=checkbox] + label::before , .multiple-choice [type=radio] + label::before {
     content: "";
     border: 2px solid #000;
     background: transparent;
     width: 35px;
     height: 35px;
-   /* position: absolute;*/
+    /* position: absolute;*/
     top: 5px;
     left: 0;
 }
@@ -115,10 +115,10 @@ input[type=radio].checked+label:before, input[type=radio]:checked+label:before {
     background: transparent;
     width: 35px;
     height: 35px;
-   /* position: absolute;*/
+    /* position: absolute;*/
     top: 5px;
     left: 0;
-border-radius:50%;
+    border-radius:50%;
 }
 
 
@@ -159,7 +159,7 @@ border-radius:50%;
     zoom: 1;
     filter: alpha(opacity=0);
     opacity: 0;
- border-radius:50%;
+    border-radius:50%;
 }
 .gds-multiple-choice:checked + label::after {
     zoom: 1;
