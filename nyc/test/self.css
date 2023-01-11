@@ -20,7 +20,7 @@ button.btn.btn-af.cancelbutton {
     background-color: #00692f;
 }
 .previousbutton {
-    margin-top: -14px !important;
+    margin-top: -14px !important; /* Kludge to fit this properly*/
 }
 
 .btn-secondary {
@@ -29,7 +29,7 @@ button.btn.btn-af.cancelbutton {
 }
 
 
-._AF .btn.btn-default, .achieveforms-container .btn.btn-default{ 
+._AF .btn.btn-default, .achieveforms-container .btn.btn-default { 
     min-width: auto;
     border-radius: 0;
     box-shadow: none;
@@ -40,6 +40,12 @@ button.btn.btn-af.cancelbutton {
     color:#fff;
 }
 
-._AF .btn.btn-default:hover, .achieveforms-container .btn.btn-default:hover{
+._AF .btn.btn-default:hover, .achieveforms-container .btn.btn-default:hover {
     background-color: #12457a !important;
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type="radio"]:checked + label::before {
+    content: "\00a0";
+    background-color: #000 ;
+    border-color: #000;
 }
