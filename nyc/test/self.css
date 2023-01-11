@@ -10,6 +10,7 @@
     display: none;
     visibility: hidden;
 }
+
 button.btn.btn-af.cancelbutton {
     visibility: hidden;
     display: none;
@@ -28,18 +29,17 @@ button.btn.btn-af.cancelbutton {
 }
 
 
-._AF .btn.btn-default, .achieveforms-container .btn.btn-default{
-	    
+._AF .btn.btn-default, .achieveforms-container .btn.btn-default{ 
     min-width: auto;
-	border-radius: 0;
-box-shadow: none;
-text-shadow: none;
-border: 0;
-background-color: #12457a !important;
-box-shadow: 0 2px 0 #003518;
-	color:#fff;
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    border: 0;
+    background-color: #12457a !important;
+    box-shadow: 0 2px 0 #003518;
+    color:#fff;
 }
 
 ._AF .btn.btn-default:hover, .achieveforms-container .btn.btn-default:hover{
-	background-color: #12457a !important;
+    background-color: #12457a !important;
 }
