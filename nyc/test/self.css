@@ -49,3 +49,7 @@ button.btn.btn-af.cancelbutton {
     background-color: #000 ;
     border-color: #000;
 }
+
+.displayAsSeparated.subField.year.seperatedDateField-alignAbove {
+    margin-left: 8px;
+}
