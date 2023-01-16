@@ -53,3 +53,27 @@ button.btn.btn-af.cancelbutton {
 .displayAsSeparated.subField.year.seperatedDateField-alignAbove {
     margin-left: 8px;
 }
+
+.confirmation-header {
+    width: 100%;
+    background-color: #01427a;
+    color: #FFF;
+    text-align: center;
+    padding: 50px;
+}
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+.svg-inline--fa.fa-w-16 {
+    width: 1em;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
