@@ -8,7 +8,7 @@
 
 .achieveforms-container .sectionsHead {
     display: none;
-    visibility: hidden;
+    /*visibility: hidden;*/
 }
 
 button.btn.btn-af.cancelbutton {
@@ -19,6 +19,11 @@ button.btn.btn-af.cancelbutton {
 .nextbutton {
     background-color: #00692f;
 }
+.achieveforms-container .fillinButtons .btn.submitbutton {
+    margin-right: 1em;
+    float: right !important;
+    margin-top: -38px !important;
+}
 .previousbutton {
     margin-top: -14px !important; /* Kludge to fit this properly*/
 }
@@ -28,6 +33,10 @@ button.btn.btn-af.cancelbutton {
     color: #fff;
 }
 
+button.btn.nextbutton.btn-af.btn-sm {
+    background-color: #12457a;
+    color: #fff;
+}
 
 ._AF .btn.btn-default, .achieveforms-container .btn.btn-default { 
     min-width: auto;
@@ -48,6 +57,10 @@ button.btn.btn-af.cancelbutton {
     content: "\00a0";
     background-color: #000 ;
     border-color: #000;
+}
+
+label[for=date_of_birth-year]{
+    margin-left: 8px;
 }
 
 .displayAsSeparated.subField.year.seperatedDateField-alignAbove {
@@ -76,4 +89,9 @@ svg:not(:root).svg-inline--fa {
     height: 1em;
     overflow: visible;
     vertical-align: -.125em;
+}
+button.btn.submitbutton.btn-af.btn-sm.repeat-subform-btn {
+    margin-top: -26px !important;
+    background-color: #12457a;
+    color: #fff;
 }
