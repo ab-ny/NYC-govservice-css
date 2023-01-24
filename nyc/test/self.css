@@ -96,9 +96,12 @@ button.btn.submitbutton.btn-af.btn-sm.repeat-subform-btn {
     color: #fff;
 }
 
-span.govuk-details__summary-text {
+span.govuk-details__summary {
     color: #005489;
 }
 .govuk-details__summary:before {
     color: #005489;
+}
+span.govuk-details__summary:active, span.govuk-details__summary:focus {
+    color: black;
 }
