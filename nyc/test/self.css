@@ -38,20 +38,7 @@ button.btn.nextbutton.btn-af.btn-sm {
     color: #fff;
 }
 
-._AF .btn.btn-default, .achieveforms-container .btn.btn-default { 
-    min-width: auto;
-    border-radius: 0;
-    box-shadow: none;
-    text-shadow: none;
-    border: 0;
-    background-color: #12457a !important;
-    box-shadow: 0 2px 0 #003518;
-    color:#fff;
-}
 
-._AF .btn.btn-default:hover, .achieveforms-container .btn.btn-default:hover {
-    background-color: #12457a !important;
-}
 
 .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type="radio"]:checked + label::before {
     content: "\00a0";
@@ -104,4 +91,39 @@ span.govuk-details__summary {
 }
 span.govuk-details__summary:active, span.govuk-details__summary:focus {
     color: black;
+}
+
+._AF .btn.btn-default, .achieveforms-container .btn.btn-default { 
+    min-width: auto;
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    border: 0;
+    background-color: #12457a;
+    box-shadow: 0 2px 0 #003518;
+    color:#fff;
+}
+
+._AF .btn.btn-default:hover, .achieveforms-container .btn.btn-default:hover {
+    background-color: #12457a;
+}
+._AF .btn.btn-default.btn-manual, .achieveforms-container .btn.btn-default.btn-manual{
+    background-color: #fff;
+    color: #0b0c0c;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 0px !important; /*hacky*/
+    margin-left: 2px;
+}
+
+._AF .btn.btn-default.btn-manual:focus, .achieveforms-container .btn.btn-default.btn-manual:focus {
+    background-color: #fd0 !important;
+    color: #0b0c0c;
+    
+}
+._AF .btn.btn-default.btn-manual:hover, .achieveforms-container .btn.btn-default.btn-manual:hover {
+    background-color: #fff;
+    min-height: 0px;
 }
