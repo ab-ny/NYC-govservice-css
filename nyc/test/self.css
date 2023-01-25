@@ -127,6 +127,13 @@ span.govuk-details__summary:active, span.govuk-details__summary:focus {
     margin-right: 30px;
 }
 
-span.fileCount {
+.fileCount {
     display: none;
+}
+
+.achieveforms-container .fillinButtons button.btn.btn-af.savebutton {
+    margin-left: 7em;
+    margin-top: -29px !important; 
+    background-color: #12457a;
+    color: #fff;
 }
