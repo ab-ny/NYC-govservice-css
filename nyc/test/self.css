@@ -126,3 +126,7 @@ span.govuk-details__summary:active, span.govuk-details__summary:focus {
 ._AF input[type=text].displayAsSeparated, .achieveforms-container input[type=text].displayAsSeparated {
     margin-right: 30px;
 }
+
+span.fileCount {
+    display: none;
+}
