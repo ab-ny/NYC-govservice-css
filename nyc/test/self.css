@@ -137,3 +137,13 @@ span.govuk-details__summary:active, span.govuk-details__summary:focus {
     background-color: #12457a;
     color: #fff;
 }
+._AF .mandatory, .achieveforms-container .mandatory {
+    display: none !important;
+}
+
+.previousText {
+    display: none;
+}
+.previousbutton:after {
+    content: 'Back';
+}
