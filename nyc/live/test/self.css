@@ -1,0 +1,166 @@
+/*@import url("core.css");*/
+#navigation {
+    display: none;
+}
+#loginLink {
+    display: none;
+}
+
+.achieveforms-container .sectionsHead {
+    display: none;
+    /*visibility: hidden;*/
+}
+
+button.btn.btn-af.cancelbutton {
+    visibility: hidden;
+    display: none;
+}
+
+.nextbutton {
+    background-color: #00692f;
+}
+.achieveforms-container .fillinButtons .btn.submitbutton {
+    margin-right: 1em;
+    float: right !important;
+    margin-top: -38px !important;
+}
+.previousbutton {
+    margin-top: -14px !important; /* Kludge to fit this properly*/
+}
+
+.btn-secondary {
+    background-color: #12457a;
+    color: #fff;
+}
+
+button.btn.nextbutton.btn-af.btn-sm {
+    background-color: #12457a;
+    color: #fff;
+}
+
+
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type="radio"]:checked + label::before {
+    content: "\00a0";
+    background-color: #000 ;
+    border-color: #000;
+}
+
+label [for=date_of_birth-year] {
+    margin-left: 8px;
+}
+
+.confirmation-header {
+    width: 100%;
+    background-color: #01427a;
+    color: #FFF;
+    text-align: center;
+    padding: 50px;
+}
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+.svg-inline--fa.fa-w-16 {
+    width: 1em;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+button.btn.submitbutton.btn-af.btn-sm.repeat-subform-btn {
+    margin-top: -26px !important;
+    background-color: #12457a;
+    color: #fff;
+}
+
+span.govuk-details__summary {
+    color: #005489;
+}
+.govuk-details__summary:before {
+    color: #005489;
+}
+span.govuk-details__summary:active, span.govuk-details__summary:focus {
+    color: black;
+}
+
+._AF .btn.btn-default, .achieveforms-container .btn.btn-default { 
+    min-width: auto;
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    border: 0;
+    background-color: #12457a;
+    box-shadow: 0 2px 0 #003518;
+    color:#fff;
+}
+
+._AF .btn.btn-default:hover, .achieveforms-container .btn.btn-default:hover {
+    background-color: #12457a;
+}
+._AF .btn.btn-default.btn-manual, .achieveforms-container .btn.btn-default.btn-manual{
+    background-color: #fff;
+    color: #0b0c0c;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 0px !important; /*hacky*/
+    margin-left: 2px;
+}
+
+._AF .btn.btn-default.btn-manual:focus, .achieveforms-container .btn.btn-default.btn-manual:focus {
+    background-color: #fd0 !important;
+    color: #0b0c0c;
+    
+}
+._AF .btn.btn-default.btn-manual:hover, .achieveforms-container .btn.btn-default.btn-manual:hover {
+    background-color: #fff;
+    min-height: 0px;
+}
+._AF input[type=text].displayAsSeparated, .achieveforms-container input[type=text].displayAsSeparated {
+    margin-right: 30px;
+}
+
+.fileCount {
+    display: none;
+}
+
+.achieveforms-container .fillinButtons button.btn.btn-af.savebutton {
+    margin-left: 7em;
+    margin-top: -29px !important; 
+    background-color: #12457a;
+    color: #fff;
+}
+._AF .mandatory, .achieveforms-container .mandatory {
+    display: none !important;
+}
+
+.previousText {
+    display: none;
+}
+.previousbutton:after {
+    content: 'Back';
+}
+
+.right-float {
+    float: right;
+}
+
+@media only print, only screen and (max-width: 767px) {
+    .achieveforms-container .fillinButtons-wrapper .fillinButtons .btn {
+        min-width: 0;
+    }
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {}
+#footer .footer-meta .copyright a {
+    background-image: url(https://files-northyorkshire-fspub.s3.amazonaws.com/nyc/test/images/NYCC_logo_2015_Black_small.png);
+    background-size: initial;
+}
