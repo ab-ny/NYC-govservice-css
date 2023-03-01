@@ -147,3 +147,20 @@ span.govuk-details__summary:active, span.govuk-details__summary:focus {
 .previousbutton:after {
     content: 'Back';
 }
+
+.right-float {
+    float: right;
+}
+
+@media only print, only screen and (max-width: 767px) {
+    .achieveforms-container .fillinButtons-wrapper .fillinButtons .btn {
+        min-width: 0;
+    }
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {}
+#footer .footer-meta .copyright a {
+    background-image: url(https://files-northyorkshire-fspub.s3.amazonaws.com/nyc/test/images/NYCC_logo_2015_Black_small.png);
+    background-size: initial;
+}
