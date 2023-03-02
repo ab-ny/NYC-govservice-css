@@ -188,3 +188,9 @@ span.govuk-details__summary:active, span.govuk-details__summary:focus {
     width: 100%;
     max-width: 100%;
 }
+
+.select2-container-active .select2-choice,.select2-container-active .select2-choices, .select2-drop {   
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+                                                           
