@@ -164,3 +164,27 @@ span.govuk-details__summary:active, span.govuk-details__summary:focus {
     background-image: url(https://files-northyorkshire-fspub.s3.amazonaws.com/nyc/test/images/NYCC_logo_2015_Black_small.png);
     background-size: initial;
 }
+
+
+.select2-container .select2-choice {
+    background-image: none; 
+}
+
+.select2-container .select2-choice>.select2-chosen {
+    margin-right: 26px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: none;
+    width: auto;
+    background-image: none;
+    background: white;
+}
+.select2-container a.select2-choice {
+    background: white;
+}
+._AF input[type=text].select2-input {
+    width: 100%;
+    max-width: 100%;
+}
