@@ -1,0 +1,53 @@
+@import url('https://use.fontawesome.com/releases/v6.2.0/css/all.css');
+
+.msg-success {
+  color: black;
+  background-color: #dff0d8;
+  border-color: #d3d3d3;
+  border-style: solid; 
+  border-width: 0pt;
+  border-left: #00823b solid 10px;
+  padding: 15px;
+  line-height: 1.4;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.msg-info {
+  color: black;
+  background-color: #eef4fa;
+  border-color: #d3d3d3;
+  border-style: solid; 
+  border-width: 0pt;
+  border-left: #01427a solid 10px;
+  padding: 15px;
+  line-height: 1.4;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.msg-warning {
+  color: black;
+  background-color: #fcf8e3;
+  border-color: #d3d3d3;
+  border-style: solid; 
+  border-width: 0pt;
+  border-left: #ffdd00 solid 10px;
+  padding: 15px;
+  line-height: 1.4;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.msg-danger {
+  color: black;
+  background-color: #f2dede;
+  border-color: #d3d3d3;
+  border-style: solid; 
+  border-width: 0pt;
+  border-left: #d4351c solid 10px;
+  padding: 15px;
+  line-height: 1.4;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
