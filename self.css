@@ -195,3 +195,6 @@ span.govuk-details__summary:active, span.govuk-details__summary:focus {
     -webkit-box-shadow: none;
 }
                                                            
+tr.repeatable-value>td.value {
+    padding-left: 0 !important;
+}
