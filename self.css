@@ -252,3 +252,8 @@ a:focus {
     max-width: 960px;
     margin: 0 auto;
 }
+
+#footer .footer-meta .copyright a {
+    background-image: url(https://files-northyorkshire-fspub.s3.amazonaws.com/nyc/test/images/logo.png);
+    background-size: 300px;
+}
