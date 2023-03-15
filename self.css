@@ -194,48 +194,43 @@ span.govuk-details__summary:active, span.govuk-details__summary:focus {
     box-shadow: none;
     -webkit-box-shadow: none;
 }
-                                                           
+
 tr.repeatable-value>td.value {
     padding-left: 0 !important;
 }
 
 * {
-font-family: 'Open Sans', sans-serif !important;
-font-size: 17px;
-text-underline-offset: 0.2em;
-text-decoration-skip-ink: none;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 17px;
+    text-underline-offset: 0.2em;
+    text-decoration-skip-ink: none;
 }
-
-
 
 html._AF h1 {
     font-size: 36px;
-    color: #005489;
     margin-bottom: 15px;
     margin-top: 40px;
 }
 
 html._AF h2 {
-font-size: 24px;
-color: #005489;
-margin-bottom: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 html._AF h4 {
-font-size: 19px;
-color: #005489;
-margin-bottom: 10px;
+    font-size: 19px;
+    margin-bottom: 10px;
 }
 
 a {
-text-decoration: underline;
-color: #00539F;
+    text-decoration: underline;
+    color: #00539F;
 }
 
 a:hover {
-text-decoration: underline;
-text-decoration-thickness: max(4px, 0.1875rem, 0.12em);
-color: #333;
+    text-decoration: underline;
+    text-decoration-thickness: max(4px, 0.1875rem, 0.12em);
+    color: #333;
 }
 
 a:focus {
@@ -251,7 +246,7 @@ a:focus {
 }
 
 #header {
-    border-top: 10px solid #347121;
+    border-top: none;
     clear: both;
     width: 100%;
     max-width: 960px;
