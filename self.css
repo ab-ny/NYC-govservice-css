@@ -257,3 +257,7 @@ a:focus {
     background-image: url(https://files-northyorkshire-fspub.s3.amazonaws.com/nyc/test/images/logo.png);
     background-size: 300px;
 }
+
+.navbar-brand .logo {
+    margin: 0px 15px;
+}
