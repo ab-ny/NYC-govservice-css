@@ -270,3 +270,9 @@ div#page-container {
 .achieveforms-container {
     padding-right: 0;
 }
+
+.submission-message-btn-wrapper button.save.btn.btn-af {
+    width: 100%;
+    font-weight: bold;
+    font-size: 250%;
+}
