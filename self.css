@@ -198,3 +198,15 @@ span.govuk-details__summary:active, span.govuk-details__summary:focus {
 tr.repeatable-value>td.value {
     padding-left: 0 !important;
 }
+
+.submission-message-btn-wrapper button.save.btn.btn-af {
+    width: 100%;
+    font-weight: bold;
+    font-size: 250%;
+}
+
+.achieveforms-container .fieldContent .resumable-drop {
+    border: 1px dashed #aaa !important;
+    border-top-style: dashed !important;
+    border-radius: .5em;
+}   
