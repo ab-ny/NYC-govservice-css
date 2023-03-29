@@ -286,3 +286,9 @@ div#page-container {
     border-top-style: dashed !important;
     border-radius: .5em;
 }
+
+@media (min-width: 641px) {
+    #footer .footer-wrapper {
+        padding-top: 20px;
+    }
+}
