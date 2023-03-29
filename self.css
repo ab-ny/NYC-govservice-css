@@ -207,13 +207,11 @@ tr.repeatable-value>td.value {
     text-decoration-skip-ink: none;
 }
 
-html._AF h1, div._AF h1, html._AF h1 {
+html._AF h1, div._AF h1, html._AF h1, h1 .fas {
     font-size: 36px;
     margin-bottom: 15px;
     margin-top: 40px;
 }
-
-
 
 @media only screen and (max-width: 979px) {
     html._AF h1 {
