@@ -40,8 +40,6 @@ button.btn.nextbutton.btn-af.btn-sm {
     color: #fff;
 }
 
-
-
 .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type="radio"]:checked + label::before {
     content: "\00a0";
     background-color: #000 ;
@@ -84,9 +82,11 @@ button.btn.submitbutton.btn-af.btn-sm.repeat-subform-btn {
 span.govuk-details__summary {
     color: #005489;
 }
+
 .govuk-details__summary:before {
     color: #005489;
 }
+
 span.govuk-details__summary:active, span.govuk-details__summary:focus {
     color: black;
 }
@@ -207,10 +207,16 @@ tr.repeatable-value>td.value {
     text-decoration-skip-ink: none;
 }
 
-html._AF h1 {
+html._AF h1, div._AF h1, html._AF h1, h1 .fas {
     font-size: 36px;
     margin-bottom: 15px;
     margin-top: 40px;
+}
+
+@media only screen and (max-width: 979px) {
+    html._AF h1 {
+        margin-top: 0px;
+    }
 }
 
 html._AF h2 {
