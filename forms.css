@@ -16,7 +16,7 @@ body,table td span,.achieveforms-container table.repeatable-table thead,.achieve
 	padding-right:30px;
 }
 body._AF h1, div._AF h1, html._AF h1{
-	font-size:48px;
+	font-size:36px;
 }
 a:link,html._AF a {
 	color: #005ea5;
@@ -28,10 +28,7 @@ a:hover,html._AF a:hover {
 p{
 	margin-bottom:1.05em;
 }
-.achieveforms-container .all-sections .field .fieldContent .fieldInput, .achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode{
-	
-	
-}
+
 .achieveforms-container .all-sections .field .fieldContent input.fieldInput,.achieveforms-container .all-sections .field .fieldContent select,.input-group{
 	width:325px;
 }

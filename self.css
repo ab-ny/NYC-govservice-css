@@ -1,4 +1,5 @@
 /*@import url("core.css");*/
+@import url('https://use.fontawesome.com/releases/v6.2.0/css/all.css');
 @import url('alerts.css');
 #navigation {
     display: none;
@@ -38,8 +39,6 @@ button.btn.nextbutton.btn-af.btn-sm {
     background-color: #12457a;
     color: #fff;
 }
-
-
 
 .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type="radio"]:checked + label::before {
     content: "\00a0";
@@ -83,9 +82,11 @@ button.btn.submitbutton.btn-af.btn-sm.repeat-subform-btn {
 span.govuk-details__summary {
     color: #005489;
 }
+
 .govuk-details__summary:before {
     color: #005489;
 }
+
 span.govuk-details__summary:active, span.govuk-details__summary:focus {
     color: black;
 }
@@ -194,9 +195,86 @@ span.govuk-details__summary:active, span.govuk-details__summary:focus {
     box-shadow: none;
     -webkit-box-shadow: none;
 }
-                                                           
+
 tr.repeatable-value>td.value {
     padding-left: 0 !important;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    text-underline-offset: 0.2em;
+    text-decoration-skip-ink: none;
+}
+
+html._AF h1, div._AF h1, html._AF h1, h1 .fas {
+    font-size: 36px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 979px) {
+    html._AF h1 {
+        margin-top: 0px;
+    }
+}
+
+html._AF h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+html._AF h4 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: underline;
+    color: #00539F;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: max(4px, 0.1875rem, 0.12em);
+    color: #333;
+}
+
+a:focus {
+    background-color: #fd0;
+    outline: none;
+    text-decoration: none;
+    box-shadow: 0 -2px #fd0, 0 4px black;
+    color: black;
+}
+
+.navbar-inverse {
+    background-color: #005489;
+}
+
+#header {
+    border-top: none;
+    clear: both;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#footer .footer-meta .copyright a {
+    background-image: url(https://files-northyorkshire-fspub.s3.amazonaws.com/nyc/test/images/logo.png);
+    background-size: 255px;
+}
+
+.navbar-brand .logo {
+    margin: 0px 15px;
+}
+
+div#page-container {
+    padding-right: 0;
+}
+
+.achieveforms-container {
+    padding-right: 0;
 }
 
 .submission-message-btn-wrapper button.save.btn.btn-af {
@@ -205,8 +283,18 @@ tr.repeatable-value>td.value {
     font-size: 250%;
 }
 
+.confirmation-header strong {
+    font-size: 2.25rem;
+}
+
 .achieveforms-container .fieldContent .resumable-drop {
     border: 1px dashed #aaa !important;
     border-top-style: dashed !important;
     border-radius: .5em;
-}   
+}
+
+@media (min-width: 641px) {
+    #footer .footer-wrapper {
+        padding-top: 20px;
+    }
+}
