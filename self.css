@@ -226,6 +226,15 @@ body._AF article,body._AF footer,body._AF form,body._AF header,body._AF input,bo
     text-decoration-skip-ink: none;
 }
 
+section[aria-label="Before you start"] h1 {
+    box-sizing: border-box;
+    color: rgb(0,84,137);
+    display: block;
+    font-size: 29.75px;
+    font-weight: 400;
+    line-height: 32.725px;
+}
+
 html._AF h1, div._AF h1, html._AF h1, h1 .fas {
     font-size: 36px;
     margin-bottom: 15px;
