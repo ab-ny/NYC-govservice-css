@@ -213,6 +213,10 @@ body._AF a,body._AF div,body._AF h1,body._AF h2,body._AF h3,body._AF h4,body._AF
     font-family: 'Open Sans',sans-serif;
 }
 
+body._AF h1,body._AF h2,body._AF h3,body._AF h4,body._AF h5 ,div._AF h1,div._AF h2,div._AF h3,div._AF h4,div._AF h5, html._AF h1,html._AF h2,html._AF h3,html._AF h4,html._AF h5 {
+    font-weight: 400;
+}
+
 body._AF a,body._AF div, body._AF p,body._AF span:not(.fa),div._AF a,div._AF div, div._AF p,div._AF span:not(.fa),html._AF a,html._AF div, tml._AF p,html._AF span:not(.fa) {
     font-size: 17px;
     text-underline-offset: 0.2em;
@@ -224,6 +228,15 @@ body._AF article,body._AF footer,body._AF form,body._AF header,body._AF input,bo
     font-size: 17px;
     text-underline-offset: 0.2em;
     text-decoration-skip-ink: none;
+}
+
+section[aria-label="Before you start"] h1 {
+    box-sizing: border-box;
+    color: rgb(0,84,137);
+    display: block;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 32.725px;
 }
 
 html._AF h1, div._AF h1, html._AF h1, h1 .fas {
