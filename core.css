@@ -1552,7 +1552,7 @@ body._AF div, body._AF h1, body._AF h2, body._AF h3, body._AF h4, body._AF h5, b
 
 /*body._AF a,div._AF a,html._AF a,*/
 .achieveforms-container .all-sections .field .fieldContent .fieldInput.content, .achieveforms-container .all-sections .field .fieldContent .fieldInput.upload, .achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.content, .achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.upload {
-    font-size: 19px;
+    font-size: 17px;
 }
 
 .all-sections.col-xs-12.AF-col-xs-fluid.col-sm-12 {

@@ -207,6 +207,38 @@ tr.repeatable-value>td.value {
     text-decoration-skip-ink: none;
 }
 
+/* Override specific Granicus provided styles */
+
+body._AF a,body._AF div,body._AF h1,body._AF h2,body._AF h3,body._AF h4,body._AF h5,body._AF p,body._AF span:not(.fa),div._AF a,div._AF div,div._AF h1,div._AF h2,div._AF h3,div._AF h4,div._AF h5,div._AF p,div._AF span:not(.fa),html._AF a,html._AF div,html._AF h1,html._AF h2,html._AF h3,html._AF h4,html._AF h5,html._AF p,html._AF span:not(.fa) {
+    font-family: 'Open Sans',sans-serif;
+}
+
+body._AF h1,body._AF h2,body._AF h3,body._AF h4,body._AF h5 ,div._AF h1,div._AF h2,div._AF h3,div._AF h4,div._AF h5, html._AF h1,html._AF h2,html._AF h3,html._AF h4,html._AF h5 {
+    font-weight: 400;
+}
+
+body._AF a,body._AF div, body._AF p,body._AF span:not(.fa),div._AF a,div._AF div, div._AF p,div._AF span:not(.fa),html._AF a,html._AF div, tml._AF p,html._AF span:not(.fa) {
+    font-size: 17px;
+    text-underline-offset: 0.2em;
+    text-decoration-skip-ink: none;
+}
+
+body._AF article,body._AF footer,body._AF form,body._AF header,body._AF input,body._AF label,body._AF nav,body._AF section,body._AF select,body._AF textarea,div._AF article,div._AF footer,div._AF form,div._AF header,div._AF input,div._AF label,div._AF nav,div._AF section,div._AF select,div._AF textarea,html._AF article,html._AF footer,html._AF form,html._AF header,html._AF input,html._AF label,html._AF nav,html._AF section,html._AF select,html._AF textarea {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 17px;
+    text-underline-offset: 0.2em;
+    text-decoration-skip-ink: none;
+}
+
+section[aria-label="Before you start"] h1 {
+    box-sizing: border-box;
+    color: rgb(0,84,137);
+    display: block;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 32.725px;
+}
+
 html._AF h1, div._AF h1, html._AF h1, h1 .fas {
     font-size: 36px;
     margin-bottom: 15px;
