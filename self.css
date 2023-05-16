@@ -330,3 +330,7 @@ div#page-container {
         padding-top: 20px;
     }
 }
+
+div {
+    line-height: 27.2px;
+}
