@@ -59,10 +59,6 @@ svg:not(:root).svg-inline--fa {
     vertical-align: -.125em;
 }
 
-
-
-
-
 ._AF .btn.btn-default.btn-manual, .achieveforms-container .btn.btn-default.btn-manual{
     background-color: #fff;
     color: #0b0c0c;
@@ -171,4 +167,10 @@ tr.repeatable-value>td.value {
 
 div {
     line-height: 27.2px;
+}
+
+/* fix wonky radios */
+input[type=radio]+label:before {
+    height: 16px;
+    width: 16px;
 }
