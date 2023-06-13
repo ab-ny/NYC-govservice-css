@@ -96,8 +96,13 @@ svg:not(:root).svg-inline--fa {
 .previousText {
     display: none;
 }
+
 .previousbutton:after {
     content: 'Back';
+}
+
+.previousbutton { /* otherwise click reigon is super small */
+    min-width: 45px;
 }
 
 .right-float {
