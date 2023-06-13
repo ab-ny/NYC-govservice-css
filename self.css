@@ -179,3 +179,18 @@ input[type=radio]+label:before {
     height: 16px;
     width: 16px;
 }
+
+/* NYC portal style :focus - fixes dodgy checkboxes */
+input[type=radio]:focus+label, input[type=checkbox]:focus+label {
+    color: #52a8ec;
+    background-color: #ffdd00;
+    border-bottom: 3px solid #0b0c0c;
+}
+
+input[type=radio]+label, input[type=checkbox]+label { /* prevent jumping */
+    border-bottom: 3px solid transparent;
+}
+
+input[type=checkbox].check2:focus+label:before {
+    border: 1px solid #0b0c0c;
+}
