@@ -204,9 +204,11 @@ input[type=radio]:focus+label, input[type=checkbox]:focus+label {
 
 input[type=checkbox].check2:focus+label:before {
     border: 1px solid #0b0c0c;
-
 }
 
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput input[type="checkbox"] + label::before, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput input[type="radio"] + label::before {
+    background-color: white;
+}
 
 .product_self .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .checkbox-wrapper label, .product_self .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .radio-wrapper label, .product_service .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .checkbox-wrapper label, .product_service .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .radio-wrapper label {
     width: 60%;
