@@ -179,3 +179,48 @@ input[type=radio]+label:before {
     height: 16px;
     width: 16px;
 }
+
+input[type=radio]+label, input[type=checkbox]+label { /* prevent jumping */
+    border: 1px solid transparent;
+    border-bottom: 3px solid transparent;
+    background: #dee0e2 none repeat scroll 0 0;
+    padding: 12px;
+}
+
+input[type=radio]+label:hover, input[type=checkbox]+label:hover { /* prevent jumping */
+    border: 1px solid black;
+    border-bottom: 3px solid black;
+    background: #dee0e2 none repeat scroll 0 0;
+    padding: 12px;
+}
+
+/* NYC portal style :focus - fixes dodgy checkboxes */
+input[type=radio]:focus+label, input[type=checkbox]:focus+label {
+    color: #52a8ec;
+    background-color: #ffdd00;
+    border-bottom: 3px solid #0b0c0c;
+    padding: 12px;
+}
+
+input[type=checkbox].check2:focus+label:before {
+    border: 1px solid #0b0c0c;
+}
+
+.achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput input[type="checkbox"] + label::before, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput input[type="radio"] + label::before {
+    background-color: white;
+}
+
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .checkbox-wrapper label, .product_self .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .radio-wrapper label, .product_service .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .checkbox-wrapper label, .product_service .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .radio-wrapper label {
+    width: 60%;
+}
+
+.product_self .achieveforms-container .all-sections .field .fieldContent.large-label fieldset.fieldInput.vertical .checkbox-wrapper label, .product_self .achieveforms-container .all-sections .field .fieldContent.large-label fieldset.fieldInput.vertical .radio-wrapper label, .product_service .achieveforms-container .all-sections .field .fieldContent.large-label fieldset.fieldInput.vertical .checkbox-wrapper label, .product_service .achieveforms-container .all-sections .field .fieldContent.large-label fieldset.fieldInput.vertical .radio-wrapper label {
+    width: 90%;
+}
+
+@media only print, only screen and (max-width: 767px) {
+    .product_self .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .checkbox-wrapper label, .product_self .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .radio-wrapper label, .product_service .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .checkbox-wrapper label, .product_service .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .radio-wrapper label {
+        width: 90%;
+        word-wrap: break-word;
+    }
+}
