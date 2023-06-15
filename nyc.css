@@ -1,0 +1,179 @@
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {}
+#footer .footer-meta .copyright a {
+  background-image: url(https://files-northyorkshire-fspub.s3.amazonaws.com/nyc/live/images/NYCC_logo_2015_Black_small.png);
+  background-size: initial;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  text-underline-offset: 0.2em;
+  text-decoration-skip-ink: none;
+}
+
+/* Override specific Granicus provided styles */
+
+body._AF a,body._AF div,body._AF h1,body._AF h2,body._AF h3,body._AF h4,body._AF h5,body._AF p,body._AF span:not(.fa),div._AF a,div._AF div,div._AF h1,div._AF h2,div._AF h3,div._AF h4,div._AF h5,div._AF p,div._AF span:not(.fa),html._AF a,html._AF div,html._AF h1,html._AF h2,html._AF h3,html._AF h4,html._AF h5,html._AF p,html._AF span:not(.fa) {
+  font-family: 'Open Sans',sans-serif;
+}
+
+body._AF h1,body._AF h2,body._AF h3,body._AF h4,body._AF h5 ,div._AF h1,div._AF h2,div._AF h3,div._AF h4,div._AF h5, html._AF h1,html._AF h2,html._AF h3,html._AF h4,html._AF h5 {
+  font-weight: 400;
+}
+
+body._AF a,body._AF div, body._AF p,body._AF span:not(.fa),div._AF a,div._AF div, div._AF p,div._AF span:not(.fa),html._AF a,html._AF div, tml._AF p,html._AF span:not(.fa) {
+  font-size: 17px;
+  text-underline-offset: 0.2em;
+  text-decoration-skip-ink: none;
+}
+
+body._AF article,body._AF footer,body._AF form,body._AF header,body._AF input,body._AF label,body._AF nav,body._AF section,body._AF select,body._AF textarea,div._AF article,div._AF footer,div._AF form,div._AF header,div._AF input,div._AF label,div._AF nav,div._AF section,div._AF select,div._AF textarea,html._AF article,html._AF footer,html._AF form,html._AF header,html._AF input,html._AF label,html._AF nav,html._AF section,html._AF select,html._AF textarea {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 17px;
+  text-underline-offset: 0.2em;
+  text-decoration-skip-ink: none;
+}
+
+/* NYC style for before you start h1*/
+section[aria-label="Before you start"] h1 {
+  box-sizing: border-box;
+  color: rgb(0,84,137);
+  display: block;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 32.725px;
+}
+
+
+
+html._AF h1, div._AF h1, html._AF h1, h1 .fas {
+  font-size: 36px;
+  margin-bottom: 15px;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 979px) {
+  html._AF h1 {
+    margin-top: 0px;
+  }
+}
+
+html._AF h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+html._AF h4 {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: underline;
+  color: #00539F;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: max(4px, 0.1875rem, 0.12em);
+  color: #333;
+}
+
+a:focus {
+  background-color: #fd0;
+  outline: none;
+  text-decoration: none;
+  box-shadow: 0 -2px #fd0, 0 4px black;
+  color: black;
+}
+
+.navbar-inverse {
+  background-color: #005489;
+}
+
+#header {
+  border-top: none;
+  clear: both;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#footer .footer-meta .copyright a {
+  background-image: url(https://files-northyorkshire-fspub.s3.amazonaws.com/nyc/test/images/logo.png);
+  background-size: 255px;
+}
+
+.navbar-brand .logo {
+  margin: 0px 15px;
+}
+
+div#page-container {
+  padding-right: 0;
+}
+
+.achieveforms-container {
+  padding-right: 0;
+}
+
+.nextbutton {
+  background-color: #00692f;
+}
+
+.btn-secondary {
+  background-color: #12457a;
+  color: #fff;
+}
+
+button.btn.nextbutton.btn-af.btn-sm {
+  background-color: #12457a;
+  color: #fff;
+}
+
+.confirmation-header {
+  width: 100%;
+  background-color: #01427a;
+  color: #FFF;
+  text-align: center;
+  padding: 50px;
+}
+
+button.btn.submitbutton.btn-af.btn-sm.repeat-subform-btn {
+  margin-top: -26px !important;
+  background-color: #12457a;
+  color: #fff;
+}
+
+span.govuk-details__summary {
+  color: #005489;
+}
+
+.govuk-details__summary:before {
+  color: #005489;
+}
+
+span.govuk-details__summary:active, span.govuk-details__summary:focus {
+  color: black;
+}
+
+._AF .btn.btn-default, .achieveforms-container .btn.btn-default { 
+  min-width: auto;
+  border-radius: 0;
+  box-shadow: none;
+  text-shadow: none;
+  border: 0;
+  background-color: #12457a;
+  box-shadow: 0 2px 0 #003518;
+  color:#fff;
+}
+
+._AF .btn.btn-default:hover, .achieveforms-container .btn.btn-default:hover {
+  background-color: #12457a;
+}
+
+.achieveforms-container .fillinButtons button.btn.btn-af.savebutton {
+  margin-left: 7em;
+  margin-top: -29px !important; 
+  background-color: #12457a;
+  color: #fff;
+}
