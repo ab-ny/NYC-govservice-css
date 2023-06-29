@@ -177,3 +177,13 @@ span.govuk-details__summary:active, span.govuk-details__summary:focus {
   background-color: #12457a;
   color: #fff;
 }
+
+._AF .nextbutton.btn-af[disabled], ._AF .nextbutton.btn-af[disabled].active, ._AF .nextbutton.btn-af[disabled]:active, ._AF .nextbutton.btn-af[disabled]:focus, ._AF .nextbutton.btn-af[disabled]:hover, .achieveforms-container .nextbutton.btn-af[disabled], .achieveforms-container .nextbutton.btn-af[disabled].active, .achieveforms-container .nextbutton.btn-af[disabled]:active, .achieveforms-container .nextbutton.btn-af[disabled]:focus, .achieveforms-container .nextbutton.btn-af[disabled]:hover {
+  background-color: #347121;
+  color: white;
+}
+
+._AF .submitbutton.btn-af[disabled], ._AF .submitbutton.btn-af[disabled].active, ._AF .submitbutton.btn-af[disabled]:active, ._AF .submitbutton.btn-af[disabled]:focus, ._AF .submitbutton.btn-af[disabled]:hover, .achieveforms-container .submitbutton.btn-af[disabled], .achieveforms-container .submitbutton.btn-af[disabled].active, .achieveforms-container .submitbutton.btn-af[disabled]:active, .achieveforms-container .submitbutton.btn-af[disabled]:focus, .achieveforms-container .submitbutton.btn-af[disabled]:hover {
+  background-color: #347121;
+  color: white;
+}
